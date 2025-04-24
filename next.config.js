@@ -5,7 +5,8 @@ const nextConfig = {
         remotePatterns: [
             {
                 protocol: 'https',
-                hostname: 'ukbd-real-brands.s3.us-east-2.amazonaws.com',
+                // hostname: 'ukbd-real-brands.s3.us-east-2.amazonaws.com',
+                 hostname: "minio.hrapp.uk",
                 port: '',
                 pathname: '/**',
             },

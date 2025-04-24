@@ -1,5 +1,6 @@
 const baseURL = "https://api.buyrealbrands.com/v3/";
-const IMAGE_URL = "https://ukbd-real-brands.s3.us-east-2.amazonaws.com/";
+// const IMAGE_URL = "https://ukbd-real-brands.s3.us-east-2.amazonaws.com/";
+const IMAGE_URL = "https://minio.hrapp.uk/ukbd-real-brands/";
 const GOOGLE_KEY = 'AIzaSyA0j_iI4ofSPVmpFotExikp-7YzCzqjOYE';
 const STRIPE_KEY = process.env.REACT_APP_STRIPE_KEY;
 const appStatic = {
@@ -20,8 +21,5 @@ const appStatic = {
     }
 }
 export {
-    baseURL,
-    IMAGE_URL,
-    GOOGLE_KEY,
-    appStatic
-}; 
+    appStatic, baseURL, GOOGLE_KEY, IMAGE_URL
+};
