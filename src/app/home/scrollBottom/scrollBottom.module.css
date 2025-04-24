@@ -1,0 +1,38 @@
+.scrollBottom {
+    background: #fff;
+    bottom: 75px;
+    cursor: pointer;
+    height: 32px;
+    position: fixed;
+    right: 0;
+    transition: .3s ease;
+    width: 32px;
+    z-index: 999;
+
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.scrollIcon {
+    background-color: rgba(1, 41, 101, .1);
+    color: #012965;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.icon_style {
+    font-size: 2rem;
+    font-weight: 100;
+    color: rgba(1, 41, 101, 0.4);
+}
+@media (max-width: 768px) {
+    .scrollBottom{
+        display: none; 
+    }
+}

@@ -1,0 +1,84 @@
+.mainContainer{
+    display: none;
+}
+/* .navButtons{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.button{
+    color: rgb(1, 41, 101,.9);
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 200;
+    align-items: center;
+}
+.buttonText{
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #012965;
+} */
+@media (max-width: 768px) {
+.mainContainer{
+    display: block;
+    background-color: #e9faff;
+    width: 100%;
+    height: 44px;
+    border-top: solid 1px rgba(1, 41, 101, 0.05);
+    color: #012965;
+}
+.navButtons{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.button{
+    color: rgb(1, 41, 101,.9);
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 200;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* border-bottom: 1px solid #012965; */
+    justify-content: center;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+.buttonActive{
+    color: rgb(1, 41, 101,.9);
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 200;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid #012965;
+    justify-content: center;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    position: relative;
+    top: 1px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
+.buttonText{
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #012965;
+}
+}
