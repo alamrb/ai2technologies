@@ -1,24 +1,24 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import styles from './home.module.css'
+import Double_Scroll_client_arefin from "@/app/home/product/Double_Scroll_client_arefin";
+import Scroll_testing_client_arefin from "@/app/home/product/scroll_testing_client_arefin";
+import useWindowSize from "@/app/home/product/useWindowSize";
 import Image from 'next/image';
-import AE_logo_new from './assets/AE-logo-new.png'
-import AppStore from './assets/appStore.png'
-import Play from './assets/play.png'
-import { useEffect, useRef, useState } from "react";
 import Link from 'next/link';
+import { useEffect, useRef, useState } from "react";
+import { isMobile } from 'react-device-detect';
+import { BsArrowRight } from "react-icons/bs";
+import { GoArrowDown } from "react-icons/go";
+import HomeSlider from './HomeSlider';
+import TextSlider from './TextSlider';
+import AE_logo_new from './assets/AE-logo-new.png';
+import AppStore from './assets/appStore.png';
 import trip_logo from './assets/images/50p_trip.png';
 import CDT_letter_logo from './assets/images/CDT_letter.png';
 import Nosurge_logo from './assets/images/NOSURGE.png';
 import Share_a_car_logo from './assets/images/Share-A-Car_LOGO.png';
 import UKBD_logo from './assets/images/UKBD.png';
-import { isMobile } from 'react-device-detect';
-import Scroll_testing_client_arefin from "@/app/home/product/scroll_testing_client_arefin";
-import Double_Scroll_client_arefin from "@/app/home/product/Double_Scroll_client_arefin";
-import useWindowSize from "@/app/home/product/useWindowSize";
-import { BsArrowRight } from "react-icons/bs";
-import { GoArrowDown } from "react-icons/go";
-import HomeSlider from './HomeSlider'
-import TextSlider from './TextSlider';
+import Play from './assets/play.png';
+import styles from './home.module.css';
 import Footer from './home/footer';
 
 function HomeContent(props) {
@@ -237,6 +237,120 @@ function HomeContent(props) {
                     </div>
                 </div>
             </div>
+
+
+
+            {/* =================== Price table=============== */}
+
+            <div className={`${styles.product_container} ${styles.pricing_bottom}`} id="pricing">
+  <div className={styles.product_item}>
+    <div className={styles.pricing_container}>
+      <div className={styles.section_top}>
+        <p className={styles.your_queries_title}>Our Pricing Plans</p>
+        <p className={styles.your_queries_sub_title}>Flexible plans tailored to your business needs. Choose what suits you best.</p>
+      </div>
+                        <div className={styles.pricing_table}>
+                            
+        <div className={`${styles.pricing_card} ${styles.featured}`}>
+          <h3 className={styles.pricing_title}>Digital Marketing Services</h3>
+                                <p className={styles.pricing_price}>£299</p>
+                                 <hr></hr>
+          <ul className={styles.pricing_features}>
+            <li>Social Media Marketing (SMM)</li>
+            <li>Search Engine Optimization (SEO)</li>
+            <li>Search Engine Marketing (SEM/PPC)</li>
+            <li>Content Marketing</li>
+            <li>Email Marketing & Automation</li>
+            <li>Conversion Rate Optimization (CRO)</li>
+            <li>Analytics & Performance Reporting</li>
+            <li>E-commerce Marketing</li>
+            <li>Local & International Marketing</li>
+            <li>Marketing Automation & CRM</li>
+          </ul>
+          <Link href="/contact" className={styles.pricing_btn}>Get Started</Link>
+        </div>
+
+        <div className={`${styles.pricing_card} ${styles.featured}`}>
+          <h5 className={styles.pricing_title}>Advanced SEO Services</h5>
+                                <p className={styles.pricing_price}>£399</p>
+                                <hr></hr>
+          <ul className={styles.pricing_features}>
+            <li>In-Depth Website Audit</li>
+            <li>Keyword Research & Strategy</li>
+            <li>Technical SEO Optimization</li>
+            <li>Content Strategy & Optimization</li>
+            <li>Link Building & Outreach</li>
+            <li>Local SEO (Advanced)</li>
+            <li>On-Page SEO (Advanced)</li>
+            <li>Mobile SEO</li>
+            <li>Analytics, Tracking & Reporting</li>
+            <li>International SEO (if needed)</li>
+            <li>E-commerce SEO (if applicable)</li>
+          </ul>
+          <Link href="/contact" className={styles.pricing_btn}>Get Started</Link>
+                            </div>
+                            
+
+        <div className={`${styles.pricing_card} ${styles.featured}`}>
+          <h5 className={styles.pricing_title}>Web Development Services</h5>
+            <p className={styles.pricing_price}>£499</p>
+                                <hr></hr>
+          <ul className={styles.pricing_features}>
+            <li>Website Design & Development</li>
+            <li>UI/UX Design</li>
+            <li>Frontend Development</li>
+            <li>Backend Development</li>
+            <li>CMS Integration</li>
+            <li>Domain & Hosting Setup</li>
+            <li>Basic SEO Setup</li>
+            <li>Website Security Setup</li>
+            <li>Analytics & Performance</li>
+            <li>Website Maintenance</li>
+          </ul>
+          <Link href="/contact" className={styles.pricing_btn}>Get Started</Link>
+                            </div>
+                            
+
+        <div className={`${styles.pricing_card} ${styles.featured}`}>
+          <h5 className={styles.pricing_title}>Cybersecurity Services</h5>
+            <p className={styles.pricing_price}>£699</p>
+                                <hr></hr>
+          <ul className={styles.pricing_features}>
+            <li>Network Security</li>
+            <li>Endpoint Security</li>
+            <li>Vulnerability Assessment</li>
+            <li>Penetration Testing</li>
+            <li>Threat Monitoring & Detection</li>
+            <li>Incident Response & Recovery</li>
+            <li>Identity & Access Management (IAM)</li>
+            <li>Compliance & Governance</li>
+            <li>Security Awareness Training</li>
+            <li>Cloud Security</li>
+            <li>Web & Application Security</li>
+            <li>Managed Security Services (MSSP)</li>
+          </ul>
+          <Link href="/contact" className={styles.pricing_btn}>Get Started</Link>
+                            </div>
+                            
+
+
+                            
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+            
+
+            
+
+            {/* ==================== Price table ========================== */}
+
+
+
             <div className={styles.product_container} >
                 <div className={styles.product_item}>
                     <div className={styles.your_queries_container}>

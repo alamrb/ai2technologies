@@ -921,3 +921,249 @@
     background-color: rgba(1, 41, 101, 0);
   }
 }
+
+/* ====================== Price table style ===========================*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+}
+
+h1.demo_title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: #2A293E;
+  letter-spacing: 2px;
+}
+
+h1.demo_title a {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.pricing_table {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  background: #ffffff;
+}
+
+.pricing_table .ptable_item {
+  width: 33.33%;
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 992px) {
+  .pricing_table .ptable_item {
+    width: 33.33%;
+  }
+}
+
+@media (max-width: 768px) {
+  .pricing_table .ptable_item {
+    width: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .pricing_table .ptable_item {
+    width: 100%;
+  }
+}
+
+.pricing_table .ptable_single {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.pricing_table .ptable_header,
+.pricing_table .ptable_body,
+.pricing_table .ptable_footer {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.pricing_table .ptable_status ,
+.pricing_table .ptable_title,
+.pricing_table .ptable_price,
+.pricing_table .ptable_description,
+.pricing_table .ptable_action {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.pricing_table .ptable_single {
+  background: #f6f8fa;
+}
+
+.pricing_table .ptable_single:hover {
+  box-shadow: 0 0 10px #999999;
+}
+
+.pricing_table .ptable_header {
+  margin: 0 30px;
+  padding: 30px 0 45px 0;
+  width: auto;
+  background: #2A293E;
+}
+
+.pricing_table .ptable_header::before,
+.pricing_table .ptable_header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid #f6f8fa;
+}
+
+.pricing_table .ptable_header::before {
+  right: 50%;
+  border-right: 250px solid transparent;
+}
+
+.pricing_table .ptable_header::after {
+  left: 50%;
+  border-left: 250px solid transparent;
+}
+
+.pricing_table .ptable_item.featured_item .ptable_header {
+  background: #FF6F61;
+}
+
+.pricing_table .ptable_status {
+  margin-top: -30px;
+}
+
+.pricing_table .ptable_status span {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  padding: 5px 0;
+  text-align: center;
+  color: #FF6F61;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  background: #2A293E;
+}
+
+.pricing_table .ptable_status span::before,
+.pricing_table .ptable_status span::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 10px solid #FF6F61;
+}
+
+.pricing_table .ptable_status span::before {
+  right: 50%;
+  border-right: 25px solid transparent;
+}
+
+.pricing_table .ptable_status span::after {
+  left: 50%;
+  border-left: 25px solid transparent;
+}
+
+.pricing_table .ptable_title h2 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.pricing_table .ptable_price h2 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: 700;
+  margin-left: 15px;
+}
+
+.pricing_table .ptable_price h2 small {
+  position: absolute;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 16px;
+  margin-left: -15px;
+}
+
+.pricing_table .ptable_price h2 span {
+  margin-left: 3px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.pricing_table .ptable_body {
+  padding: 20px 0;
+}
+
+.pricing_table .ptable_description ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pricing_table .ptable_description ul li {
+  color: #2A293E;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding: 7px;
+  border-bottom: 1px solid #dedede;
+}
+
+.pricing_table .ptable_description ul li:last-child {
+  border: none;
+}
+
+.pricing_table .ptable_footer {
+  padding-bottom: 30px;
+}
+
+.pricing_table .ptable_action a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #FF6F61;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-decoration: none;
+  background: #2A293E;
+}
+
+.pricing_table .ptable_action a:hover {
+  color: #2A293E;
+  background: #FF6F61;
+}
+
+.pricing_table .ptable_item.featured_item .ptable_action a {
+  color: #2A293E;
+  background: #FF6F61;
+}
+
+.pricing_table .ptable_item.featured_item .ptable_action a:hover {
+  color: #FF6F61;
+  background: #2A293E;
+}
+
+/* ====================== Price table style ===========================*/

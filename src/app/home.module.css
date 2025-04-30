@@ -30,6 +30,10 @@
   scroll-snap-align: start;
 }
 
+.pricing_bottom{
+  margin-bottom: 100px;
+}
+
 .product_item {
   width: 100%;
   display: flex;
@@ -1634,6 +1638,7 @@ p.section_title {
   letter-spacing: 0.6px;
   font-weight: 200;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .pricing_tab_body {
@@ -3590,3 +3595,86 @@ p.section_title {
     height: auto;
   }
 }
+
+
+
+/* ==================== Pricing table ========================= */
+
+
+.pricing_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing_table {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.pricing_card {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 16px;
+    padding: 2rem;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing_card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.featured {
+    border: 2px solid #0070f3;
+}
+
+.pricing_title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.pricing_price {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0070f3;
+    margin-bottom: 1.5rem;
+}
+
+.pricing_features {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0 1.5rem;
+}
+
+.pricing_features li {
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+}
+
+.pricing_btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #0070f3;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.3s ease;
+}
+
+.pricing_btn:hover {
+    background: #005bb5;
+}
+
+
+
+
