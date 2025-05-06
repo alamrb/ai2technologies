@@ -3659,12 +3659,14 @@ p.section_title {
 .pricing_price {
     font-size: 2rem;
     font-weight: bold;
-    color: #0070f3;
+    color: #012965;
     margin-bottom: 1.5rem;
+    font-weight: 400;
 }
 .priceInner{
-  font-size: 28px;
+  font-size: 1.4rem;
   margin-left: 4px;
+  font-weight: 500;
 }
 .pricing_features {
     list-style: none;
