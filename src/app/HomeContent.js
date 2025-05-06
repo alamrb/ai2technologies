@@ -254,7 +254,7 @@ function HomeContent(props) {
         <div className={`${styles.pricing_card} ${styles.featured}`}>
         <div className={styles.pricingHead}>
           <h3 className={styles.pricing_title}>Digital Marketing Services</h3>
-                                <p className={styles.pricing_price}>£299</p>
+                                <p className={styles.pricing_price}>£<span className={styles.priceInner}>299</span></p>
         </div>
         <hr></hr>
           <ul className={styles.pricing_features}>
@@ -275,7 +275,7 @@ function HomeContent(props) {
         <div className={`${styles.pricing_card} ${styles.featured}`}>
          <div className={styles.pricingHead}>
          <h5 className={styles.pricing_title}>Advanced SEO Services</h5>
-         <p className={styles.pricing_price}>£399</p>
+         <p className={styles.pricing_price}>£<span className={styles.priceInner}>399</span></p>
          </div>
             <hr></hr>
           <ul className={styles.pricing_features}>
@@ -298,7 +298,7 @@ function HomeContent(props) {
         <div className={`${styles.pricing_card} ${styles.featured}`}>
         <div className={styles.pricingHead}>
           <h5 className={styles.pricing_title}>Web Development Services</h5>
-            <p className={styles.pricing_price}>£499</p>
+            <p className={styles.pricing_price}>£<span className={styles.priceInner}>499</span></p>
             </div>
                                 <hr></hr>
           <ul className={styles.pricing_features}>
@@ -320,7 +320,7 @@ function HomeContent(props) {
         <div className={`${styles.pricing_card} ${styles.featured}`}>
         <div className={styles.pricingHead}>
           <h5 className={styles.pricing_title}>Cybersecurity Services</h5>
-            <p className={styles.pricing_price}>£699</p>
+            <p className={styles.pricing_price}>£<span className={styles.priceInner}>699</span></p>
             </div>
                                 <hr></hr>
           <ul className={styles.pricing_features}>
@@ -338,7 +338,7 @@ function HomeContent(props) {
             <li>Managed Security Services (MSSP)</li>
           </ul>
           <Link href="/contact" className={styles.pricing_btn}>Get Started</Link>
-                            </div>
+          </div>
                             
 
 
