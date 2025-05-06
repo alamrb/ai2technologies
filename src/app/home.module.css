@@ -3602,10 +3602,13 @@ p.section_title {
 
 
 .pricing_container {
+  height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: scroll;
+    padding: 4rem 0;
     
 }
 
@@ -3615,7 +3618,7 @@ p.section_title {
     flex-wrap: wrap;
     gap: 0rem;
     justify-content: center;
-    overflow: scroll;
+    
 }
 
 .pricing_card {
