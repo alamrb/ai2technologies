@@ -1162,7 +1162,7 @@
   font-weight: 200;
   color: var(--blue);
   font-family: var(--Poppins);
-  text-align: justify;
+  text-align: center;
   letter-spacing: 0.7px;
   line-height: 22px;
   width: 457px;
@@ -3602,24 +3602,29 @@ p.section_title {
 
 
 .pricing_container {
+  height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: scroll;
+    padding: 4rem 0;
+    
 }
 
 .pricing_table {
     margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 0rem;
     justify-content: center;
+    
 }
 
 .pricing_card {
     background: #fff;
-    border: 1px solid #e5e5e5;
-    border-radius: 16px;
+    /* border: 1px solid #e5e5e5; */
+    /* border-radius: 16px; */
     padding: 2rem;
     width: 300px;
     text-align: center;
@@ -3632,10 +3637,19 @@ p.section_title {
     box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
-.featured {
-    border: 2px solid #0070f3;
+.pricing_table .pricing_card:last-child {
+  border-right: none !important;
 }
-
+.featured {
+    border-right: 2px solid rgba(243, 0, 0, 0.1);
+}
+.pricingHead{
+  height: 23%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
 .pricing_title {
     font-size: 1.5rem;
     font-weight: 600;
@@ -3645,14 +3659,20 @@ p.section_title {
 .pricing_price {
     font-size: 2rem;
     font-weight: bold;
-    color: #0070f3;
+    color: #012965;
     margin-bottom: 1.5rem;
+    font-weight: 400;
 }
-
+.priceInner{
+  font-size: 1.4rem;
+  margin-left: 4px;
+  font-weight: 500;
+}
 .pricing_features {
     list-style: none;
     padding: 0;
     margin: 1.5rem 0 1.5rem;
+    height: 66%;
 }
 
 .pricing_features li {
@@ -3669,12 +3689,9 @@ p.section_title {
     text-decoration: none;
     font-weight: 500;
     transition: background 0.3s ease;
+    margin-bottom: 40px;
 }
 
 .pricing_btn:hover {
     background: #005bb5;
 }
-
-
-
-
