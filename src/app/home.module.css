@@ -3683,7 +3683,7 @@ p.section_title {
 .pricing_btn {
     display: inline-block;
     padding: 0.75rem 1.5rem;
-    background: #0070f3;
+    background: #012965;
     color: #fff;
     border-radius: 8px;
     text-decoration: none;
@@ -3693,5 +3693,5 @@ p.section_title {
 }
 
 .pricing_btn:hover {
-    background: #005bb5;
+    background: #012965;
 }

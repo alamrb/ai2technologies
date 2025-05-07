@@ -269,7 +269,7 @@ function HomeContent(props) {
             <li>Local & International Marketing</li>
             <li>Marketing Automation & CRM</li>
           </ul>
-          <Link href="/contact" className={styles.pricing_btn}>Get Started</Link>
+          <Link href="#" className={styles.pricing_btn}>Get Started</Link>
         </div>
 
         <div className={`${styles.pricing_card} ${styles.featured}`}>
@@ -291,7 +291,7 @@ function HomeContent(props) {
             <li>International SEO (if needed)</li>
             <li>E-commerce SEO (if applicable)</li>
           </ul>
-          <Link href="/contact" className={styles.pricing_btn}>Get Started</Link>
+          <Link href="#" className={styles.pricing_btn}>Get Started</Link>
                             </div>
                             
 
@@ -313,7 +313,7 @@ function HomeContent(props) {
             <li>Analytics & Performance</li>
             <li>Website Maintenance</li>
           </ul>
-          <Link href="/contact" className={styles.pricing_btn}>Get Started</Link>
+          <Link href="#" className={styles.pricing_btn}>Get Started</Link>
                             </div>
                             
 
@@ -337,7 +337,7 @@ function HomeContent(props) {
             <li>Web & Application Security</li>
             <li>Managed Security Services (MSSP)</li>
           </ul>
-          <Link href="/contact" className={styles.pricing_btn}>Get Started</Link>
+          <Link href="#" className={styles.pricing_btn}>Get Started</Link>
           </div>
                             
 
