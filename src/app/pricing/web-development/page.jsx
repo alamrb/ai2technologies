@@ -30,6 +30,7 @@ export default function Page() {
                 <div className={styles.pricingHead}>
                   <h3 className={styles.pricing_title}>Basic Plan</h3>
                   <p className={styles.pricing_price}>8000 BDT</p>
+                  <h3 className={styles.pricing_title_month}> </h3>
                 </div>
                 <hr />
                 <ul className={styles.pricing_features}>
@@ -52,6 +53,7 @@ export default function Page() {
                 <div className={styles.pricingHead}>
                   <h3 className={styles.pricing_title}>Standard Plan</h3>
                   <p className={styles.pricing_price}>20000 BDT</p>
+                  <h3 className={styles.pricing_title_month}> </h3>
                 </div>
                 <hr />
                 <ul className={styles.pricing_features}>
@@ -79,6 +81,7 @@ export default function Page() {
                 <div className={styles.pricingHead}>
                   <h3 className={styles.pricing_title}>Premium Plan</h3>
                   <p className={styles.pricing_price}>60000 BDT</p>
+                  <h3 className={styles.pricing_title_month}> </h3>
                 </div>
                 <hr />
                 <ul className={styles.pricing_features}>
