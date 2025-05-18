@@ -82,6 +82,7 @@ export default function Header() {
                                 <Link href="/technologies"><div className={`${styles.menu_item_list} ${pathname.indexOf('/technologies') > -1 ? styles.active : ''}`} onMouseEnter={() => set_open_menu('technologies')}> Technologies <TfiAngleDown style={{ fontSize: '10px' }} /> </div></Link>
                                 <Link href="/company"><div className={`${styles.menu_item_list} ${pathname.indexOf('/company') > -1 ? styles.active : ''}`} onMouseEnter={() => set_open_menu('company')} >Company <TfiAngleDown style={{ fontSize: '10px' }} /> </div> </Link>
                                 <Link href="#"><div className={`${styles.menu_item_list} ${pathname.indexOf('/industries') > -1 ? styles.active : ''}`} onMouseEnter={() => set_open_menu('industries')} >Industries <TfiAngleDown style={{ fontSize: '10px' }} /> </div> </Link>
+                                <Link href="#"><div className={`${styles.menu_item_list} ${pathname.indexOf('/pricing') > -1 ? styles.active : ''}`} onMouseEnter={() => set_open_menu('pricing')} >Pricing <TfiAngleDown style={{ fontSize: '10px' }} /> </div> </Link>
                             </div>
                         </div>
                     </div>
@@ -276,6 +277,37 @@ export default function Header() {
                                     </Link>
                                 </div>
 
+                            </div>
+                        </div>
+
+                    )}
+                    {open_menu === 'pricing' && (
+                        <div className={styles.mega_menu_section} onMouseLeave={() => set_open_menu('')} >
+                            <div className={styles.mega_menu_close_icon}> <RxCross1 style={{ cursor: 'pointer' }} title='Close' onClick={() => set_open_menu('')} /> </div>
+                            <div className={styles.mega_menu_item_container_services}>
+                                <div className={styles.mega_menu_item_container}>
+
+                                    <Link onClick={() => set_open_menu('')} href={"/pricing/social-media-management"} className={styles.mega_menu_item_section}>
+                                        <div className={styles.mega_menu_title} >Social Media Managemnet Packages</div>
+                                        <div className={styles.mega_menu_content}> Professional social media management tailored to grow your brand, engage your audience, and save you time.</div>
+                                    </Link>
+                                    <Link onClick={() => set_open_menu('')} href={'/pricing/cyber-security'} className={styles.mega_menu_item_section}>
+                                        <div className={styles.mega_menu_title}>Cyber Security Service Packages</div>
+                                        <div className={styles.mega_menu_content}>Robust cybersecurity solutions designed to protect your data, systems, and digital assets from evolving threats.</div>
+                                    </Link>
+                                </div>
+                                <div className={styles.mega_menu_item_container}>
+                                    <Link onClick={() => set_open_menu('')} href={"/pricing/SEO-management"} className={styles.mega_menu_item_section}>
+                                        <div className={styles.mega_menu_title}>Seo Management Packages</div>
+                                        <div className={styles.mega_menu_content}>Comprehensive SEO solutions designed to improve your search visibility, drive traffic, and grow your business online.</div>
+                                    </Link>
+                                </div>
+                                <div className={styles.mega_menu_item_container}>
+                                    <Link onClick={() => set_open_menu('')} href={'/pricing/web-development'} className={styles.mega_menu_item_section}>
+                                        <div className={styles.mega_menu_title}>Web Development Service Packages</div>
+                                        <div className={styles.mega_menu_content}>Custom web development packages tailored to build fast, responsive, and scalable websites for your business.</div>
+                                    </Link>
+                                </div>
                             </div>
                         </div>
 
