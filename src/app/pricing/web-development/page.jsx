@@ -24,6 +24,7 @@ export default function Page() {
               className={`${styles.pricing_table} ${styles.pricing_table_custom}`}
             >
               {/* Basic Plan */}
+              {/* Basic Plan */}
               <div
                 className={`${styles.pricing_card} ${styles.featured} ${styles.pricing_card_custom}`}
               >
