@@ -30,7 +30,7 @@
   scroll-snap-align: start;
 }
 
-.pricing_bottom{
+.pricing_bottom {
   margin-bottom: 100px;
 }
 
@@ -3445,8 +3445,6 @@ p.section_title {
     padding: 20px 10%;
   }
 
- 
-
   .button_design {
     width: 200px;
     display: flex;
@@ -3461,7 +3459,7 @@ p.section_title {
     font-weight: 300;
     height: 32px;
     line-height: 24px;
-    transition: .2s ease-in-out;
+    transition: 0.2s ease-in-out;
     text-transform: uppercase;
     margin: 8px 0;
   }
@@ -3550,7 +3548,6 @@ p.section_title {
     text-transform: uppercase;
   }
 
-
   .pricing_bar {
     width: 100%;
     height: 20px;
@@ -3607,31 +3604,25 @@ p.section_title {
   }
 }
 
-
-
 /* ==================== Pricing table ========================= */
-
 
 .pricing_container {
   height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow: scroll;
-    padding: 4rem 0;
-    
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
+  padding: 4rem 0;
 }
 
 .pricing_table {
-    margin-top: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0rem;
-    justify-content: center;
-    
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0rem;
+  justify-content: center;
 }
-
 
 .pricing_table_custom {
   margin-top: 2rem;
@@ -3640,7 +3631,6 @@ p.section_title {
   gap: 0rem;
   justify-content: center;
   width: 100%;
-  
 }
 
 .pricing_card_cutom {
@@ -3650,41 +3640,42 @@ p.section_title {
   padding: 2rem;
   width: 100%;
   text-align: center;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .pricing_card_cutom:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-
-
 .pricing_card {
-    background: #fff;
-    /* border: 1px solid #e5e5e5; */
-    /* border-radius: 16px; */
-    padding: 2rem;
-    width: 100%;
-    text-align: center;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    position: relative;
+  background: #fff;
+  /* border: 1px solid #e5e5e5; */
+  /* border-radius: 16px; */
+  padding: 2rem;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .pricing_card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .pricing_table .pricing_card:last-child {
   border-right: none !important;
 }
 .featured {
-    border-right: 2px solid rgba(243, 0, 0, 0.1);
+  border-right: 2px solid rgba(243, 0, 0, 0.1);
 }
-.pricingHead{
+.pricingHead {
   /* height: 23%; */
   display: flex;
   flex-direction: column;
@@ -3692,19 +3683,19 @@ p.section_title {
   justify-content: space-between;
 }
 .pricing_title {
-    font-size: 1.5rem;
-    font-weight: 300;
-    margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
 }
 
 .pricing_price {
-    font-size: 2rem;
-    font-weight: bold;
-    color: red;
-    margin-bottom: 0.5rem;
-    font-weight: 400;
+  font-size: 2rem;
+  font-weight: bold;
+  color: red;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
 }
-.priceInner{
+.priceInner {
   font-size: 1.4rem;
   margin-left: 4px;
   font-weight: 500;
@@ -3713,7 +3704,7 @@ p.section_title {
   list-style: none;
   padding: 0;
   margin: 1.5rem 0 1.5rem;
-  /* height: 66%; */
+  height: 100%;
   font-size: 16px;
   font-weight: 200;
   color: var(--blue);
@@ -3721,53 +3712,42 @@ p.section_title {
   text-align: center;
   letter-spacing: 0.7px;
   line-height: 22px;
-
 }
 
 .pricing_features li {
-    margin-bottom: 0.75rem;
-    font-size: 1rem;
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
 }
 
 .pricing_btn {
-    /* display: inline-block; */
-        /* display: inline-block; */
-        padding: 0.75rem 1.5rem;
-        background: red;
-        color: #fff;
-        border-radius: 8px;
-        text-decoration: none;
-        font-weight: 500;
-        transition: background 0.3s ease;
-        /* margin-bottom: 40px; */
-        width: 150px;
-        /* height: 23px; */
-        background-color: white;
-        color: var(--red);
-        column-gap: 10px;
-        text-transform: uppercase;
-        font-size: 14px;
-        font-weight: 400;
-        font-family: var(--Poppins);
-        line-height: 1em;
-        letter-spacing: 0.7px;
-        line-height: 22px;
-        cursor: pointer;
-        border: 1px solid var(--red) !important;
-        position: absolute;
-        bottom: 10px;
-        left: 0;
-        right: 0;
-        /* align-items: center; */
-        justify-content: center;
-        margin: 0 auto;
-
-
-
+  padding: 0.75rem 1.5rem;
+  background: red;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s ease;
+  width: 150px;
+  background-color: white;
+  color: var(--red);
+  column-gap: 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--Poppins);
+  line-height: 1em;
+  letter-spacing: 0.7px;
+  line-height: 22px;
+  cursor: pointer;
+  border: 1px solid var(--red) !important;
+  left: 0;
+  right: 0;
+  /* align-items: center; */
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .pricing_btn:hover {
   color: white !important;
   background-color: var(--red) !important;
-
 }
