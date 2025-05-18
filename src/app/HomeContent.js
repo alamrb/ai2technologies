@@ -246,96 +246,100 @@ function HomeContent(props) {
   <div className={styles.product_item}>
     <div className={styles.pricing_container}>
       <div className={styles.section_top}>
-        <p className={styles.your_queries_title}>Our Pricing Plans</p>
+        <p className={styles.your_queries_title}>Social Media Management Package</p>
         <p className={styles.your_queries_sub_title}>Flexible plans tailored to your business needs. Choose what suits you best.</p>
       </div>
-                        <div className={styles.pricing_table}>
+<div  className={`${styles.pricing_table} ${styles.pricing_table_custom}`}>
                             
-        <div className={`${styles.pricing_card} ${styles.featured}`}>
+        <div className={`${styles.pricing_card} ${styles.featured} ${styles.pricing_card_custom}`}>
         <div className={styles.pricingHead}>
-          <h3 className={styles.pricing_title}>Digital Marketing Services</h3>
-                                <p className={styles.pricing_price}>£<span className={styles.priceInner}>299</span></p>
+                                    <h3 className={styles.pricing_title}>Basic Plan</h3>
+                                    <p className={styles.pricing_price}>7000 BDT</p>
+                                    <h3 className={styles.pricing_title_month}>Per Month + Vat</h3>
+                                {/* <p className={styles.pricing_price}>£<span className={styles.priceInner}>299</span></p> */}
         </div>
         <hr></hr>
           <ul className={styles.pricing_features}>
-            <li>Social Media Marketing (SMM)</li>
-            <li>Search Engine Optimization (SEO)</li>
-            <li>Search Engine Marketing (SEM/PPC)</li>
-            <li>Content Marketing</li>
-            <li>Email Marketing & Automation</li>
-            <li>Conversion Rate Optimization (CRO)</li>
-            <li>Analytics & Performance Reporting</li>
-            <li>E-commerce Marketing</li>
-            <li>Local & International Marketing</li>
-            <li>Marketing Automation & CRM</li>
+            <li>1 bespoke post per week to 1 platform</li>
+            <li>Unique content specific to your business and interesting to your followers</li>
+            <li>A content strategy designed to boost social engagement</li>
+            <li>Branded graphics unique to your business</li>
+            <li>Upgrade any time, additional services available at checkout</li>
+            <li>Monthly rolling contract - cancel any time</li>
+            <li>Great customer support</li>
           </ul>
           <Link href="#" className={styles.pricing_btn}>Get Started</Link>
         </div>
 
-        <div className={`${styles.pricing_card} ${styles.featured}`}>
-         <div className={styles.pricingHead}>
-         <h5 className={styles.pricing_title}>Advanced SEO Services</h5>
-         <p className={styles.pricing_price}>£<span className={styles.priceInner}>399</span></p>
-         </div>
+        <div className={`${styles.pricing_card} ${styles.featured} ${styles.pricing_card_custom}`}>
+        <div className={styles.pricingHead}>
+                                    <h3 className={styles.pricing_title}>Standard Plan</h3>
+                                    <p className={styles.pricing_price}>712000 BDT</p>
+                                    <h3 className={styles.pricing_title_month}>Per Month + Vat</h3>
+                                {/* <p className={styles.pricing_price}>£<span className={styles.priceInner}>299</span></p> */}
+        </div>
             <hr></hr>
           <ul className={styles.pricing_features}>
-            <li>In-Depth Website Audit</li>
-            <li>Keyword Research & Strategy</li>
-            <li>Technical SEO Optimization</li>
-            <li>Content Strategy & Optimization</li>
-            <li>Link Building & Outreach</li>
-            <li>Local SEO (Advanced)</li>
-            <li>On-Page SEO (Advanced)</li>
-            <li>Mobile SEO</li>
-            <li>Analytics, Tracking & Reporting</li>
-            <li>International SEO (if needed)</li>
-            <li>E-commerce SEO (if applicable)</li>
+            <li>1 bespoke post per week to 1 platform</li>
+            <li>Unique content specific to your business and interesting to your followers</li>
+            <li>A content strategy designed to boost social engagement</li>
+            <li>Branded graphics unique to your business</li>
+            <li>Real time social media analytics</li>
+            <li>Upgrade any time, additional services available at checkout</li>
+            <li>Monthly rolling contract - cancel any time</li>
+            <li>Great customer support</li>
           </ul>
           <Link href="#" className={styles.pricing_btn}>Get Started</Link>
                             </div>
                             
 
-        <div className={`${styles.pricing_card} ${styles.featured}`}>
-        <div className={styles.pricingHead}>
-          <h5 className={styles.pricing_title}>Web Development Services</h5>
-            <p className={styles.pricing_price}>£<span className={styles.priceInner}>499</span></p>
-            </div>
-                                <hr></hr>
+                            <div className={`${styles.pricing_card} ${styles.featured} ${styles.pricing_card_custom}`}>
+                            <div className={styles.pricingHead}>
+                                    <h3 className={styles.pricing_title}>Premium Plan</h3>
+                                    <p className={styles.pricing_price}>20000 BDT</p>
+                                    <h3 className={styles.pricing_title_month}>Per Month + Vat</h3>
+                                {/* <p className={styles.pricing_price}>£<span className={styles.priceInner}>299</span></p> */}
+        </div>
+<hr></hr>
           <ul className={styles.pricing_features}>
-            <li>Website Design & Development</li>
-            <li>UI/UX Design</li>
-            <li>Frontend Development</li>
-            <li>Backend Development</li>
-            <li>CMS Integration</li>
-            <li>Domain & Hosting Setup</li>
-            <li>Basic SEO Setup</li>
-            <li>Website Security Setup</li>
-            <li>Analytics & Performance</li>
-            <li>Website Maintenance</li>
+            <li>5 bespoke posts per week to 3 platforms</li>
+            <li>Unique content specific to your business and interesting to your followers</li>
+            <li>A content strategy designed to boost social engagement and account growth</li>
+            <li>Branded graphics unique to your business</li>
+            <li>Preview posts one week in advance</li>
+            <li>Real time social media analytics</li>
+            <li>1 strategy call per month included</li>
+            <li>Upgrade or downgrade any time, additional services available at checkout</li>
+            <li>Monthly rolling contract - cancel any time</li>
+            <li>Fast customer support</li>
           </ul>
           <Link href="#" className={styles.pricing_btn}>Get Started</Link>
                             </div>
                             
 
-        <div className={`${styles.pricing_card} ${styles.featured}`}>
-        <div className={styles.pricingHead}>
-          <h5 className={styles.pricing_title}>Cybersecurity Services</h5>
-            <p className={styles.pricing_price}>£<span className={styles.priceInner}>699</span></p>
-            </div>
+                            <div className={`${styles.pricing_card} ${styles.featured} ${styles.pricing_card_custom}`}>
+                            <div className={styles.pricingHead}>
+                                    <h3 className={styles.pricing_title}>Deluxe Plan</h3>
+                                    <p className={styles.pricing_price}>40000BDT</p>
+                                    <h3 className={styles.pricing_title_month}>Per Month + Vat</h3>
+                                {/* <p className={styles.pricing_price}>£<span className={styles.priceInner}>299</span></p> */}
+        </div>
                                 <hr></hr>
-          <ul className={styles.pricing_features}>
-            <li>Network Security</li>
-            <li>Endpoint Security</li>
-            <li>Vulnerability Assessment</li>
-            <li>Penetration Testing</li>
-            <li>Threat Monitoring & Detection</li>
-            <li>Incident Response & Recovery</li>
-            <li>Identity & Access Management (IAM)</li>
-            <li>Compliance & Governance</li>
-            <li>Security Awareness Training</li>
-            <li>Cloud Security</li>
-            <li>Web & Application Security</li>
-            <li>Managed Security Services (MSSP)</li>
+                                <ul className={styles.pricing_features}>
+                                    
+                                    
+            <li>7 bespoke posts per week to 4 platforms</li>
+            <li>Unique content specific to your business and interesting to your followers</li>
+            <li>A content strategy designed to boost social engagement and account growth</li>
+            <li>Branded graphics unique to your business</li>
+            <li>Preview posts one week in advance</li>
+            <li>Real time social media analytics</li>
+            <li>1 strategy call per month included</li>
+            <li>1 x 500 word SEO-optimised blog post</li>
+            <li>Facebook Ads campaign included</li>
+            <li>Downgrade at any time, additional services available at checkout</li>
+            <li>Monthly rolling contract - cancel any time</li>
+            <li>Priority customer support</li>
           </ul>
           <Link href="#" className={styles.pricing_btn}>Get Started</Link>
           </div>
