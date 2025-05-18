@@ -13,11 +13,11 @@ export default function Page() {
           <div className={styles.pricing_container}>
             <div className={styles.section_top}>
               <p className={styles.your_queries_title}>
-                Cyber Security Service Packages
+                Web Development Service Packages
               </p>
               <p className={styles.your_queries_sub_title}>
-                Protect your business with proactive, professional cybersecurity
-                solutions tailored to your scale and needs.
+                Build a powerful online presence with our tailored web
+                development packages.
               </p>
             </div>
             <div
@@ -29,19 +29,16 @@ export default function Page() {
               >
                 <div className={styles.pricingHead}>
                   <h3 className={styles.pricing_title}>Basic Plan</h3>
-                  <p className={styles.pricing_price}>20,000 BDT</p>
-                  <h3 className={styles.pricing_title_month}>
-                    Per Month + Vat
-                  </h3>
+                  <p className={styles.pricing_price}>8000 BDT</p>
+                  <h3 className={styles.pricing_title_month}>One Time</h3>
                 </div>
                 <hr />
                 <ul className={styles.pricing_features}>
-                  <li>Vulnerability scan</li>
-                  <li>Basic firewall setup and monitoring</li>
-                  <li>Anti-virus & malware protection</li>
-                  <li>Data backup consultation</li>
-                  <li>Email security setup</li>
-                  <li>Monthly security report</li>
+                  <li>Up to 5 pages (Home, About, Services, Contact, etc.)</li>
+                  <li>Mobile responsive design</li>
+                  <li>Basic SEO optimization</li>
+                  <li>Contact form integration</li>
+                  <li>Delivery: 5–7 business days</li>
                   <li>Great customer support</li>
                 </ul>
                 <Link href="#" className={styles.pricing_btn}>
@@ -55,24 +52,21 @@ export default function Page() {
               >
                 <div className={styles.pricingHead}>
                   <h3 className={styles.pricing_title}>Standard Plan</h3>
-                  <p className={styles.pricing_price}>30,000 BDT</p>
-                  <h3 className={styles.pricing_title_month}>
-                    Per Month + Vat
-                  </h3>
+                  <p className={styles.pricing_price}>20000 BDT</p>
+                  <h3 className={styles.pricing_title_month}>One Time</h3>
                 </div>
                 <hr />
                 <ul className={styles.pricing_features}>
-                  <li>Vulnerability scan</li>
-                  <li>Basic firewall setup and monitoring</li>
-                  <li>Anti-virus & malware protection</li>
-                  <li>Data backup consultation</li>
-                  <li>Email security setup</li>
-                  <li>Monthly security report</li>
-                  <li>Intrusion detection system (IDS) setup</li>
-                  <li>Endpoint protection (5–15 devices)</li>
-                  <li>Secure cloud configuration audit</li>
-                  <li>Data loss prevention (DLP) basics</li>
-                  <li>Security awareness training (quarterly)</li>
+                  <li>Up to 10 pages</li>
+                  <li>Custom design & branding</li>
+                  <li>Blog integration</li>
+                  <li>Keyword mapping to target pages</li>
+                  <li>Live chat setup (optional)</li>
+                  <li>Basic analytics setup (Google Analytics)</li>
+                  <li>Header Tags Optimized (Ex. H1s)</li>
+                  <li>Delivery: 7–10 business days</li>
+                  <li>Image optimization</li>
+                  <li>Custom 404 error page setup and optimization</li>
                   <li>Great customer support</li>
                 </ul>
                 <Link href="#" className={styles.pricing_btn}>
@@ -86,71 +80,27 @@ export default function Page() {
               >
                 <div className={styles.pricingHead}>
                   <h3 className={styles.pricing_title}>Premium Plan</h3>
-                  <p className={styles.pricing_price}>45,000 BDT</p>
-                  <h3 className={styles.pricing_title_month}>
-                    Per Month + Vat
-                  </h3>
+                  <p className={styles.pricing_price}>60000 BDT</p>
+                  <h3 className={styles.pricing_title_month}>One Time</h3>
                 </div>
                 <hr />
                 <ul className={styles.pricing_features}>
-                  <li>Vulnerability scan</li>
-                  <li>Basic firewall setup and monitoring</li>
-                  <li>Anti-virus & malware protection</li>
-                  <li>Data backup consultation</li>
-                  <li>Email security setup</li>
-                  <li>Monthly security report</li>
-                  <li>Intrusion detection system (IDS) setup</li>
-                  <li>Endpoint protection (5–15 devices)</li>
-                  <li>Secure cloud configuration audit</li>
-                  <li>Data loss prevention (DLP) basics</li>
-                  <li>Security awareness training (quarterly)</li>
-                  <li>24/7 threat monitoring & incident response</li>
-                  <li>
-                    A/B Testing of SERP title & description to improve
-                    clickthrough
-                  </li>
+                  <li>Ecommerce Website</li>
+                  <li>Custom design & branding</li>
+                  <li>Blog integration</li>
+                  <li>Keyword mapping to target pages</li>
+                  <li>Live chat setup (optional)</li>
+                  <li>Basic analytics setup (Google Analytics)</li>
+                  <li>Header Tags Optimized (Ex. H1s)</li>
+                  <li>Delivery: 10–25 business days</li>
+                  <li>Image optimization</li>
+                  <li>Custom 404 error page setup and optimization</li>
+                  <li>Product listing & category pages</li>
+                  <li>Shopping cart & checkout system</li>
+                  <li>Payment gateway integration</li>
+                  <li>Order management dashboard</li>
+                  <li>Inventory management</li>
                   <li>Fast customer support</li>
-                </ul>
-                <Link href="#" className={styles.pricing_btn}>
-                  Get Started
-                </Link>
-              </div>
-
-              {/* Deluxe Plan */}
-              <div
-                className={`${styles.pricing_card} ${styles.featured} ${styles.pricing_card_custom}`}
-              >
-                <div className={styles.pricingHead}>
-                  <h3 className={styles.pricing_title}>Deluxe Plan</h3>
-                  <p className={styles.pricing_price}>65,000 BDT</p>
-                  <h3 className={styles.pricing_title_month}>
-                    Per Month + Vat
-                  </h3>
-                </div>
-                <hr />
-                <ul className={styles.pricing_features}>
-                  <li>Vulnerability scan</li>
-                  <li>Basic firewall setup and monitoring</li>
-                  <li>Anti-virus & malware protection</li>
-                  <li>Data backup consultation</li>
-                  <li>Email security setup</li>
-                  <li>Monthly security report</li>
-                  <li>Intrusion detection system (IDS) setup</li>
-                  <li>Endpoint protection (5–15 devices)</li>
-                  <li>Secure cloud configuration audit</li>
-                  <li>Data loss prevention (DLP) basics</li>
-                  <li>Security awareness training (quarterly)</li>
-                  <li>24/7 threat monitoring & incident response</li>
-                  <li>
-                    A/B Testing of SERP title & description to improve
-                    clickthrough
-                  </li>
-                  <li>Advanced penetration testing (bi-annually)</li>
-                  <li>Zero-trust architecture consulting</li>
-                  <li>Identity & Access Management (IAM) setup</li>
-                  <li>Compliance support (GDPR, ISO, HIPAA)</li>
-                  <li>Dedicated Security Consultant</li>
-                  <li>Priority customer support</li>
                 </ul>
                 <Link href="#" className={styles.pricing_btn}>
                   Get Started
