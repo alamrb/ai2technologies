@@ -77,6 +77,7 @@ export default function BespokeApp() {
                     </div>
                 </div>
             </div>
+            <CyberPricing />
             <div className={styles.product_container}>
                 <div className={styles.product_item}>
                     <div className={styles.left_side}>
@@ -135,7 +136,7 @@ export default function BespokeApp() {
                     </div>
                 </div>
             </div>
-            <CyberPricing />
+
             <div className={`${styles.product_container} ${styles.MegaMenu_container}`}>
                 {<Menu />}
             </div>

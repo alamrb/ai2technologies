@@ -44,7 +44,7 @@ export default function SEO() {
                     </div>
                 </div>
             </div>
-
+            <SeoPricing />
             <div className={`${styles.product_container}`}>
                 <div className={styles.main_template}>
                     <div className={styles.main_section}>
@@ -117,7 +117,6 @@ export default function SEO() {
                     </div>
                 </div>
             </div>
-
             <div className={styles.product_container}>
                 <div className={styles.product_item}>
                     <div className={styles.left_side}>
@@ -214,7 +213,6 @@ export default function SEO() {
 
                 </div>
             </div>
-            <SeoPricing />
             <div className={`${styles.product_container} ${styles.MegaMenu_container}`}>
                 {<Menu />}
             </div>

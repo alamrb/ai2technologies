@@ -91,6 +91,7 @@ export default function WebDev() {
                     </div>
                 </div>
             </div>
+            <WebPricing className={styles.product_container} />
             <div className={styles.product_container}>
                 <div className={styles.technology_stack_container}>
                     <div className={styles.inner_technology_stack_container}>
@@ -196,7 +197,7 @@ export default function WebDev() {
                     </div>
                 </div>
             </div>
-            <WebPricing className={styles.product_container} />
+
             <div className={`${styles.product_container} ${styles.MegaMenu_container}`}>
                 {<Menu />}
             </div>
