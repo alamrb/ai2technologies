@@ -10,6 +10,7 @@ import { useRef } from 'react';
 import useWindowSize from '../../home/product/useWindowSize';
 import Footer from '../../home/footer';
 import Menu from '../Menu';
+import SeoPricing from '../../pricing/SEO-management/page';
 
 export default function SEO() {
 
@@ -43,7 +44,7 @@ export default function SEO() {
                     </div>
                 </div>
             </div>
-
+            <SeoPricing />
             <div className={`${styles.product_container}`}>
                 <div className={styles.main_template}>
                     <div className={styles.main_section}>
@@ -116,7 +117,6 @@ export default function SEO() {
                     </div>
                 </div>
             </div>
-
             <div className={styles.product_container}>
                 <div className={styles.product_item}>
                     <div className={styles.left_side}>

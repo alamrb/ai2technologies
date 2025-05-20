@@ -442,7 +442,7 @@
 }
 
 .full_height {
-  height: calc(100vh - 22px);
+  height: calc(80vh - 22px);
 }
 
 .mega_menu_close_icon {

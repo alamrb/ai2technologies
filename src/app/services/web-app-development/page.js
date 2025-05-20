@@ -6,6 +6,7 @@ import Menu from '../Menu';
 import { useRef } from 'react';
 import useWindowSize from '@/app/home/product/useWindowSize';
 import Footer from '@/app/home/footer';
+import WebPricing from '../../pricing/web-development/page'
 
 
 
@@ -90,6 +91,7 @@ export default function WebDev() {
                     </div>
                 </div>
             </div>
+            <WebPricing className={styles.product_container} />
             <div className={styles.product_container}>
                 <div className={styles.technology_stack_container}>
                     <div className={styles.inner_technology_stack_container}>
@@ -195,6 +197,7 @@ export default function WebDev() {
                     </div>
                 </div>
             </div>
+
             <div className={`${styles.product_container} ${styles.MegaMenu_container}`}>
                 {<Menu />}
             </div>

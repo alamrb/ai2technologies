@@ -76,19 +76,19 @@ export default function Header() {
                     <div className={styles.menu_group}>
                         <div className={styles.menu_items}>
                             <div className={styles.LinkBox} >
-                                <Link href="/develop"><div className={`${styles.menu_item_list} ${pathname.indexOf('/develop') > -1 ? styles.active : ''}`} onMouseEnter={() => set_open_menu('service')} > Services <TfiAngleDown style={{ fontSize: '10px' }} /></div></Link>
                                 <Link href="/case-studies"> <div className={`${styles.menu_item_list} ${pathname.indexOf('/case-studies') > -1 ? styles.active : ''}`} > Case Studies</div></Link>
                                 {/* <Link href="/career"><div className={`${styles.menu_item_list} ${pathname.indexOf('/career') > -1 ? styles.active : ''}`}>Career</div> </Link> */}
                                 <Link href="/technologies"><div className={`${styles.menu_item_list} ${pathname.indexOf('/technologies') > -1 ? styles.active : ''}`} onMouseEnter={() => set_open_menu('technologies')}> Technologies <TfiAngleDown style={{ fontSize: '10px' }} /> </div></Link>
                                 <Link href="/company"><div className={`${styles.menu_item_list} ${pathname.indexOf('/company') > -1 ? styles.active : ''}`} onMouseEnter={() => set_open_menu('company')} >Company <TfiAngleDown style={{ fontSize: '10px' }} /> </div> </Link>
                                 <Link href="#"><div className={`${styles.menu_item_list} ${pathname.indexOf('/industries') > -1 ? styles.active : ''}`} onMouseEnter={() => set_open_menu('industries')} >Industries <TfiAngleDown style={{ fontSize: '10px' }} /> </div> </Link>
-                                <Link href="#"><div className={`${styles.menu_item_list} ${pathname.indexOf('/pricing') > -1 ? styles.active : ''}`} onMouseEnter={() => set_open_menu('pricing')} >Pricing <TfiAngleDown style={{ fontSize: '10px' }} /> </div> </Link>
+                                {/* <Link href="#"><div className={`${styles.menu_item_list} ${pathname.indexOf('/pricing') > -1 ? styles.active : ''}`} onMouseEnter={() => set_open_menu('pricing')} >Pricing <TfiAngleDown style={{ fontSize: '10px' }} /> </div> </Link> */}
+                                <Link href="/services"><div className={`${styles.menu_item_list} ${pathname.indexOf('/services') > -1 ? styles.active : ''}`} onMouseEnter={() => set_open_menu('service')} > Services <TfiAngleDown style={{ fontSize: '10px' }} /></div></Link>
                             </div>
                         </div>
                     </div>
                     <div className={styles.menu_group}>
                         <div className={styles.menu_item_list}>
-                            <Link href="/develop/developForm" className={`${styles.develop_button} ${pathname.indexOf('/developForm') > -1 ? styles.active : ''}`}> Start Developing </Link>
+                            <Link href="/services/servicesForm" className={`${styles.develop_button} ${pathname.indexOf('/servicesForm') > -1 ? styles.active : ''}`}> Start Developing </Link>
                         </div>
                     </div>
 
@@ -99,66 +99,67 @@ export default function Header() {
                             <div className={styles.mega_menu_close_icon}> <RxCross1 style={{ cursor: 'pointer' }} title='Close' onClick={() => set_open_menu('')} /> </div>
                             <div className={styles.mega_menu_item_container_services}>
                                 <div className={styles.mega_menu_item_container}>
-                                    <Link onClick={() => set_open_menu('')} href="/develop/web-app-development" className={styles.mega_menu_item_section}>
+                                    <Link onClick={() => set_open_menu('')} href="/services/web-app-development" className={styles.mega_menu_item_section}>
                                         <div className={styles.mega_menu_title} >Web App Development</div>
                                         <div className={styles.mega_menu_content}> Tailored, cost-effective business applications and web portals designed for diverse industries.</div>
                                     </Link>
-                                    <Link onClick={() => set_open_menu('')} href="/develop/mobile-app-development" className={styles.mega_menu_item_section}>
+                                    {/* <Link onClick={() => set_open_menu('')} href="/services/mobile-app-development" className={styles.mega_menu_item_section}>
                                         <div className={styles.mega_menu_title} >Mobile App Development</div>
                                         <div className={styles.mega_menu_content}> Bespoke, user-friendly mobile applications crafted for Android, iOS, and cross-platform compatibility.</div>
+                                    </Link> */}
+                                    <Link onClick={() => set_open_menu('')} href="/services/cyber-security-services" className={styles.mega_menu_item_section}>
+                                        <div className={styles.mega_menu_title} >Cyber Security Services</div>
+                                        <div className={styles.mega_menu_content}>
+                                            Comprehensive protection against digital threats, including vulnerability assessment, threat detection, and data security solutions tailored to safeguard your business.
+                                        </div>
                                     </Link>
-                                    <Link onClick={() => set_open_menu('')} href="/develop/bespoke-application" className={styles.mega_menu_item_section}>
-                                        <div className={styles.mega_menu_title} >Bespoke Business Applications</div>
-                                        <div className={styles.mega_menu_content}> Tailored web and mobile software solutions designed to optimize business processes for enhanced efficiency.</div>
-                                    </Link>
-                                    <Link onClick={() => set_open_menu('')} href={"/develop/software-development-outsourcing"} className={styles.mega_menu_item_section}>
+                                    {/* <Link onClick={() => set_open_menu('')} href={"/services/software-development-outsourcing"} className={styles.mega_menu_item_section}>
                                         <div className={styles.mega_menu_title} >Software Development Outsourcing</div>
                                         <div className={styles.mega_menu_content}><FaCircle className={styles.mega_menu_icon} /> Dedicated Development Team</div>
                                         <div className={styles.mega_menu_content}><FaCircle className={styles.mega_menu_icon} /> IT Staff Augmentation</div>
-                                    </Link>
+                                    </Link> */}
                                 </div>
                                 <div className={styles.mega_menu_item_container}>
-                                    <Link onClick={() => set_open_menu('')} href={'/develop/portal-development'} className={styles.mega_menu_item_section}>
-                                        <div className={styles.mega_menu_title} >Web Portal Development</div>
-                                        <div className={styles.mega_menu_content}><FaCircle className={styles.mega_menu_icon} /> B2B Portal Development</div>
-                                        <div className={styles.mega_menu_content}><FaCircle className={styles.mega_menu_icon} /> Vendor Portal Development</div>
-                                        <div className={styles.mega_menu_content}><FaCircle className={styles.mega_menu_icon} /> Customer Portal Development</div>
+                                    <Link onClick={() => set_open_menu('')} href={'/services/digital-marketing-services'} className={styles.mega_menu_item_section}>
+                                        <div className={styles.mega_menu_title} >Social Media Marketing Services</div>
+                                        <div className={styles.mega_menu_content}><FaCircle className={styles.mega_menu_icon} /> Social Media Marketing (SMM)</div>
+                                        <div className={styles.mega_menu_content}><FaCircle className={styles.mega_menu_icon} /> SEO (Search Engine Optimization)</div>
+                                        <div className={styles.mega_menu_content}><FaCircle className={styles.mega_menu_icon} /> Google Ads & PPC Campaigns</div>
                                     </Link>
-                                    <Link onClick={() => set_open_menu('')} href={'/develop/for-startup'} className={styles.mega_menu_item_section}>
+                                    {/* <Link onClick={() => set_open_menu('')} href={'/services/for-startup'} className={styles.mega_menu_item_section}>
                                         <div className={styles.mega_menu_title} >For Startups</div>
                                         <div className={styles.mega_menu_content}><FaCircle className={styles.mega_menu_icon} /> MVP Development</div>
                                         <div className={styles.mega_menu_content}><FaCircle className={styles.mega_menu_icon} /> Discovery Workshops</div>
                                         <div className={styles.mega_menu_content}><FaCircle className={styles.mega_menu_icon} /> Virtual CTO</div>
-                                    </Link>
-                                    <Link onClick={() => set_open_menu('')} href={'/develop/desktop-app-development'} className={styles.mega_menu_item_section}>
+                                    </Link> */}
+                                    {/* <Link onClick={() => set_open_menu('')} href={'/services/desktop-app-development'} className={styles.mega_menu_item_section}>
                                         <div className={styles.mega_menu_title} >Desktop App Development</div>
                                         <div className={styles.mega_menu_content}><FaCircle className={styles.mega_menu_icon} /> Windows Development</div>
                                         <div className={styles.mega_menu_content}><FaCircle className={styles.mega_menu_icon} /> macOS DEVELOPMENT</div>
-                                    </Link>
-                                    <div onClick={() => set_open_menu('')} className={styles.mega_menu_item_section}>
+                                    </Link> */}
+                                    {/* <div onClick={() => set_open_menu('')} className={styles.mega_menu_item_section}>
                                         <div className={styles.mega_menu_title} > Professional Services</div>
                                         <div className={styles.mega_menu_content}><FaCircle className={styles.mega_menu_icon} /> Software Project Rescue</div>
                                         <div className={styles.mega_menu_content}><FaCircle className={styles.mega_menu_icon} /> Support & Maintenance</div>
                                         <div className={styles.mega_menu_content}><FaCircle className={styles.mega_menu_icon} /> QA & Testing Services</div>
                                         <div className={styles.mega_menu_content}><FaCircle className={styles.mega_menu_icon} /> UI/UX Design</div>
-                                    </div>
+                                    </div> */}
                                 </div>
                                 <div className={styles.mega_menu_item_container}>
-
-                                    <Link onClick={() => set_open_menu('')} href={'/develop/seo'} className={styles.mega_menu_item_section}>
+                                    <Link onClick={() => set_open_menu('')} href={'/services/seo'} className={styles.mega_menu_item_section}>
                                         <div className={styles.mega_menu_title} >SEO</div>
                                         <div className={styles.mega_menu_content}><FaCircle className={styles.mega_menu_icon} /> Organic Search (SEO) </div>
                                         <div className={styles.mega_menu_content}><FaCircle className={styles.mega_menu_icon} /> Paid Media</div>
                                         <div className={styles.mega_menu_content}><FaCircle className={styles.mega_menu_icon} /> Social Media </div>
                                     </Link>
-                                    <div onClick={() => set_open_menu('')} className={styles.mega_menu_item_section}>
+                                    {/* <div onClick={() => set_open_menu('')} className={styles.mega_menu_item_section}>
                                         <div className={styles.mega_menu_title} >Upcoming Services</div>
                                         <div className={styles.mega_menu_content}><FaCircle className={styles.mega_menu_icon} /> Content Marketing </div>
                                         <div className={styles.mega_menu_content}><FaCircle className={styles.mega_menu_icon} /> Analytics </div>
                                         <div className={styles.mega_menu_content}><FaCircle className={styles.mega_menu_icon} /> Additional Services</div>
-                                    </div>
-                                    <div className={styles.mega_menu_item_section}></div>
-                                    <div className={styles.mega_menu_item_section}></div>
+                                    </div> */}
+                                    {/* <div className={styles.mega_menu_item_section}></div>
+                                    <div className={styles.mega_menu_item_section}></div> */}
                                 </div>
                             </div>
                         </div>
@@ -176,7 +177,7 @@ export default function Header() {
                                         <div className={styles.mega_menu_content}><FaCircle className={styles.mega_menu_icon} /> Angular</div>
                                         <div className={styles.mega_menu_content}><FaCircle className={styles.mega_menu_icon} /> Vue</div>
                                     </Link>
-                                    <Link href='/develop/web-app-development' onClick={() => set_open_menu('')} className={styles.mega_menu_item_section}>
+                                    <Link href='/services/web-app-development' onClick={() => set_open_menu('')} className={styles.mega_menu_item_section}>
                                         <div className={styles.mega_menu_title}>Backend Development</div>
                                         <div className={styles.mega_menu_content}><FaCircle className={styles.mega_menu_icon} /> Node.js</div>
                                         <div className={styles.mega_menu_content}><FaCircle className={styles.mega_menu_icon} /> Java</div>
@@ -184,7 +185,7 @@ export default function Header() {
                                     </Link>
                                 </div>
                                 <div className={styles.mega_menu_item_container}>
-                                    <Link href='/develop/mobile-app-development' onClick={() => set_open_menu('')} className={styles.mega_menu_item_section}>
+                                    <Link href='/services/mobile-app-development' onClick={() => set_open_menu('')} className={styles.mega_menu_item_section}>
                                         <div className={styles.mega_menu_title}>Mobile App Development</div>
                                         <div className={styles.mega_menu_content}><FaCircle className={styles.mega_menu_icon} /> IOS</div>
                                         <div className={styles.mega_menu_content}><FaCircle className={styles.mega_menu_icon} /> Android</div>
@@ -320,21 +321,21 @@ export default function Header() {
                         <div ref={menuRef} className={styles.mobile_menu_group}>
                             <div className={styles.menu_mobile_container}>
                                 <div className={styles.menu_title_mobile}>
-                                    <Link href="/develop" className={styles.menu_label} onClick={() => setIsMenuOpen(false)}>
-                                        <div className={`${styles.menu_label} ${currentPath === '/develop' ? styles.active : ''}`}> Services </div>
+                                    <Link href="/services" className={styles.menu_label} onClick={() => setIsMenuOpen(false)}>
+                                        <div className={`${styles.menu_label} ${currentPath === '/services' ? styles.active : ''}`}> Services </div>
                                     </Link>
                                     <div className={styles.mobileNavInnerIcon} onClick={() => handleExpand('develop')}><HiOutlinePlus className={expandedMenus['develop'] ? styles.displayN : ''} /><HiOutlineMinus className={expandedMenus['develop'] ? styles.displayB : styles.displayN} /></div><br></br>
                                 </div>
                                 {expandedMenus['develop'] && (
                                     <div className={styles.MobileNavExpanded}>
-                                        <Link href="/develop/web-app-development" onClick={() => setIsMenuOpen(false)} className={styles.expanded_menu_option}>Web app development</Link>
-                                        <Link href="/develop/mobile-app-development" onClick={() => setIsMenuOpen(false)} className={styles.expanded_menu_option}>Mobile app development</Link>
-                                        <Link href="/develop/bespoke-application" onClick={() => setIsMenuOpen(false)} className={styles.expanded_menu_option}>Bespoke business application</Link>
-                                        <Link href="/develop/software-development-outsourcing" onClick={() => setIsMenuOpen(false)} className={styles.expanded_menu_option}>Software development outsourcing</Link>
-                                        <Link href="/develop/portal-development" onClick={() => setIsMenuOpen(false)} className={styles.expanded_menu_option}>Web portal development</Link>
-                                        <Link href="/develop/for-startup" onClick={() => setIsMenuOpen(false)} className={styles.expanded_menu_option}>For startups</Link>
-                                        <Link href="/develop/desktop-app-development" onClick={() => setIsMenuOpen(false)} className={styles.expanded_menu_option}>Desktop app development</Link>
-                                        <Link href="/develop/seo" onClick={() => setIsMenuOpen(false)} className={styles.expanded_menu_option}>Search engine optimization</Link>
+                                        <Link href="/services/web-app-development" onClick={() => setIsMenuOpen(false)} className={styles.expanded_menu_option}>Web app development</Link>
+                                        <Link href="/services/mobile-app-development" onClick={() => setIsMenuOpen(false)} className={styles.expanded_menu_option}>Mobile app development</Link>
+                                        <Link href="/services/bespoke-application" onClick={() => setIsMenuOpen(false)} className={styles.expanded_menu_option}>Bespoke business application</Link>
+                                        <Link href="/services/software-development-outsourcing" onClick={() => setIsMenuOpen(false)} className={styles.expanded_menu_option}>Software development outsourcing</Link>
+                                        <Link href="/services/portal-development" onClick={() => setIsMenuOpen(false)} className={styles.expanded_menu_option}>Web portal development</Link>
+                                        <Link href="/services/for-startup" onClick={() => setIsMenuOpen(false)} className={styles.expanded_menu_option}>For startups</Link>
+                                        <Link href="/services/desktop-app-development" onClick={() => setIsMenuOpen(false)} className={styles.expanded_menu_option}>Desktop app development</Link>
+                                        <Link href="/services/seo" onClick={() => setIsMenuOpen(false)} className={styles.expanded_menu_option}>Search engine optimization</Link>
                                     </div>
                                 )}
                             </div>
@@ -372,8 +373,8 @@ export default function Header() {
                                 {expandedMenus['tech'] && (
                                     <div className={styles.MobileNavExpanded}>
                                         <Link href="/technologies/frontend-development" onClick={() => setIsMenuOpen(false)} className={styles.expanded_menu_option}>Front-end Development</Link>
-                                        <Link href="/develop/mobile-app-development" onClick={() => setIsMenuOpen(false)} className={styles.expanded_menu_option}>Mobile App Development</Link>
-                                        <Link href="/develop/web-app-development" onClick={() => setIsMenuOpen(false)} className={styles.expanded_menu_option}>Backend Development</Link>
+                                        <Link href="/services/mobile-app-development" onClick={() => setIsMenuOpen(false)} className={styles.expanded_menu_option}>Mobile App Development</Link>
+                                        <Link href="/services/web-app-development" onClick={() => setIsMenuOpen(false)} className={styles.expanded_menu_option}>Backend Development</Link>
                                         <Link href="/technologies/cloud-development" onClick={() => setIsMenuOpen(false)} className={styles.expanded_menu_option}>Cloud Development</Link>
 
                                     </div>
