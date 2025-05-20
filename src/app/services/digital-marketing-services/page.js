@@ -31,6 +31,9 @@ import { useRef } from 'react';
 import useWindowSize from '@/app/home/product/useWindowSize';
 import { isMobile } from 'react-device-detect';
 import Footer from '@/app/home/footer';
+import SocialPricing from '../../pricing/social-media-management/page'
+
+
 export default function PortalDevelopment() {
     const prevCountRef = useRef(0);
     const containerRef = useRef(null);
@@ -236,6 +239,7 @@ export default function PortalDevelopment() {
                     </div>
                 </div>
             </div>
+            <SocialPricing />
             <div className={`${styles.product_container} ${styles.MegaMenu_container}`}>
                 {<Menu />}
             </div>

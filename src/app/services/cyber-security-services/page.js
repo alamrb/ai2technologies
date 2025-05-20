@@ -16,6 +16,7 @@ import Menu from '../Menu';
 import { useRef } from 'react';
 import useWindowSize from '@/app/home/product/useWindowSize';
 import Footer from '@/app/home/footer';
+import CyberPricing from '../../pricing/cyber-security/page'
 export default function BespokeApp() {
 
     const prevCountRef = useRef(0);
@@ -134,6 +135,7 @@ export default function BespokeApp() {
                     </div>
                 </div>
             </div>
+            <CyberPricing />
             <div className={`${styles.product_container} ${styles.MegaMenu_container}`}>
                 {<Menu />}
             </div>

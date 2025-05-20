@@ -10,6 +10,7 @@ import { useRef } from 'react';
 import useWindowSize from '../../home/product/useWindowSize';
 import Footer from '../../home/footer';
 import Menu from '../Menu';
+import SeoPricing from '../../pricing/SEO-management/page';
 
 export default function SEO() {
 
@@ -213,6 +214,7 @@ export default function SEO() {
 
                 </div>
             </div>
+            <SeoPricing />
             <div className={`${styles.product_container} ${styles.MegaMenu_container}`}>
                 {<Menu />}
             </div>
