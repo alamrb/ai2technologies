@@ -1,4 +1,3 @@
-import React from "react";
 import Link from "next/link";
 import styles from "../../home.module.css";
 
@@ -122,7 +121,7 @@ export default function Page() {
               className={`${styles.pricing_card} ${styles.featured} ${styles.pricing_card_custom}`}
             >
               <div className={styles.pricingHead}>
-                <h3 className={styles.pricing_title}>Deluxe Plan</h3>
+                <h3 className={styles.pricing_title}>PLATINUM</h3>
                 <p className={styles.pricing_price}>40000 BDT</p>
                 <h3 className={styles.pricing_title_month}>Per Month + Vat</h3>
               </div>

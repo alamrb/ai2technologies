@@ -336,7 +336,7 @@ function HomeContent(props) {
 
                             <div className={`${styles.pricing_card} ${styles.featured} ${styles.pricing_card_custom}`}>
                                 <div className={styles.pricingHead}>
-                                    <h3 className={styles.pricing_title}>P L A T I N U M</h3>
+                                    <h3 className={styles.pricing_title}>PLATINUM</h3>
                                     <p className={styles.pricing_price}>7,000BDT</p>
                                     <h3 className={styles.pricing_title_month}>Per Month + Vat</h3>
                                     {/* <p className={styles.pricing_price}>£<span className={styles.priceInner}>299</span></p> */}
