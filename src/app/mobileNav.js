@@ -28,13 +28,13 @@ export default function MobileNav() {
                         <AiOutlineHome />
                         <p className={styles.buttonText}>Home</p>
                     </Link>}
-                {path === '/develop/developForm' ?
-                    <Link href={'/develop/developForm'} className={styles.buttonActive}>
+                {path === '/services/developForm' ?
+                    <Link href={'/services/developForm'} className={styles.buttonActive}>
                         <IoBuild />
                         <p className={styles.buttonText}>Develop</p>
                     </Link>
                     :
-                    <Link href={'/develop/developForm'} className={styles.button}>
+                    <Link href={'/services/developForm'} className={styles.button}>
                         <IoBuildOutline />
                         <p className={styles.buttonText}>Develop</p>
                     </Link>
@@ -50,13 +50,13 @@ export default function MobileNav() {
                         <p className={styles.buttonText}>Career</p>
                     </Link>
                 }
-                {path === '/develop' ?
-                    <Link href={'/develop'} className={styles.buttonActive}>
+                {path === '/services' ?
+                    <Link href={'/services'} className={styles.buttonActive}>
                         <SiSemanticuireact />
                         <p className={styles.buttonText}>Services</p>
                     </Link>
                     :
-                    <Link href={'/develop'} className={styles.button}>
+                    <Link href={'/services'} className={styles.button}>
                         <SiReact />
                         <p className={styles.buttonText}>Services</p>
                     </Link>
