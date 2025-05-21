@@ -253,65 +253,52 @@ function HomeContent(props) {
 
                             <div className={`${styles.pricing_card} ${styles.featured} ${styles.pricing_card_custom}`}>
                                 <div className={styles.pricingHead}>
-                                    <h3 className={styles.pricing_title}>Basic Plan</h3>
-                                    <p className={styles.pricing_price}>7000 BDT</p>
+                                    <h3 className={styles.pricing_title}>Basic</h3>
+                                    <p className={styles.pricing_price}>1,500 BDT</p>
                                     <h3 className={styles.pricing_title_month}>Per Month + Vat</h3>
                                     {/* <p className={styles.pricing_price}>£<span className={styles.priceInner}>299</span></p> */}
                                 </div>
                                 <hr></hr>
                                 <ul className={styles.pricing_features}>
-                                    <li>1 bespoke post per week to 1 platform</li>
-                                    <li>Unique content specific to your business and interesting to your followers</li>
-                                    <li>A content strategy designed to boost social engagement</li>
-                                    <li>Branded graphics unique to your business</li>
-                                    <li>Upgrade any time, additional services available at checkout</li>
-                                    <li>Monthly rolling contract - cancel any time</li>
-                                    <li>Great customer support</li>
+                                    <li> <span>1.</span> POST PER WEEK </li>
+                                    <li> <span>2.</span> UNIQUE CONTENT </li>
+                                    <li>  <span>3.</span> BOOST SOCIAL ENGAGEMENT </li>
+                                    <li> <span>4.</span> BRANDED & UNIQUE GRAPHICS </li>
+                                    <li> <span>5.</span> ADDITIONAL SERVICES
+                                    AVAILABLE AT CHECKOUT</li>
+                                    <li> <span>6.</span> MONTHLY ROLLING CONTRACT </li>
+                                    <li> <span>7.</span>GREAT CUSTOMER SUPPORT</li>
+                                    <li> <span>8.</span> FAST CUSTOMER SUPPORT</li>
+                                    <li> <span>9.</span> NULL</li>
+                                    <li> <span>10.</span> NULL</li>
+                                    <li> <span>11.</span> NULL</li>
                                 </ul>
                                 <Link href="#" className={styles.pricing_btn}>Get Started</Link>
                             </div>
 
                             <div className={`${styles.pricing_card} ${styles.featured} ${styles.pricing_card_custom}`}>
                                 <div className={styles.pricingHead}>
-                                    <h3 className={styles.pricing_title}>Standard Plan</h3>
-                                    <p className={styles.pricing_price}>712000 BDT</p>
+                                    <h3 className={styles.pricing_title}>Standard</h3>
+                                    <p className={styles.pricing_price}>3,000 BDT</p>
                                     <h3 className={styles.pricing_title_month}>Per Month + Vat</h3>
                                     {/* <p className={styles.pricing_price}>£<span className={styles.priceInner}>299</span></p> */}
                                 </div>
                                 <hr></hr>
                                 <ul className={styles.pricing_features}>
-                                    <li>1 bespoke post per week to 1 platform</li>
-                                    <li>Unique content specific to your business and interesting to your followers</li>
-                                    <li>A content strategy designed to boost social engagement</li>
-                                    <li>Branded graphics unique to your business</li>
-                                    <li>Real time social media analytics</li>
-                                    <li>Upgrade any time, additional services available at checkout</li>
-                                    <li>Monthly rolling contract - cancel any time</li>
-                                    <li>Great customer support</li>
-                                </ul>
-                                <Link href="#" className={styles.pricing_btn}>Get Started</Link>
-                            </div>
-
-
-                            <div className={`${styles.pricing_card} ${styles.featured} ${styles.pricing_card_custom}`}>
-                                <div className={styles.pricingHead}>
-                                    <h3 className={styles.pricing_title}>Premium Plan</h3>
-                                    <p className={styles.pricing_price}>20000 BDT</p>
-                                    <h3 className={styles.pricing_title_month}>Per Month + Vat</h3>
-                                    {/* <p className={styles.pricing_price}>£<span className={styles.priceInner}>299</span></p> */}
-                                </div>
-                                <hr></hr>
-                                <ul className={styles.pricing_features}>
-                                    <li>5 bespoke posts per week to 3 platforms</li>
-                                    <li>Unique content specific to your business and interesting to your followers</li>
-                                    <li>A content strategy designed to boost social engagement and account growth</li>
-                                    <li>Branded graphics unique to your business</li>
-                                    <li>Preview posts one week in advance</li>
-                                    <li>Real time social media analytics</li>
-                                    <li>1 strategy call per month included</li>
-                                    <li>Upgrade or downgrade any time, additional services available at checkout</li>
-                                    <li>Monthly rolling contract - cancel any time</li>
-                                    <li>Fast customer support</li>
+                                    <li> <span>1.</span> POST PER WEEK </li>
+                                    <li> <span>2.</span> UNIQUE CONTENT </li>
+                                    <li> <span>3.</span> BOOST SOCIAL ENGAGEMENT </li>
+                                    <li> <span>4.</span> BRANDED & UNIQUE GRAPHICS </li>
+                                    <li> <span>5.</span> REAL-TIME SOCIAL MEDIA
+                                    ANALYTICS </li>
+                                    <li> <span>6.</span> ADDITIONAL SERVICES
+                                    AVAILABLE AT CHECKOUT </li>
+                                    <li> <span>7.</span> MONTHLY ROLLING CONTRACT
+                                    - CANCEL ANY TIME </li>
+                                    <li> <span>8.</span> GREAT CUSTOMER SUPPORT </li>
+                                    <li> <span>9.</span> FAST CUSTOMER SUPPORT </li>
+                                    <li> <span>10.</span> NULL </li>
+                                    <li> <span>11.</span> NULL </li>
                                 </ul>
                                 <Link href="#" className={styles.pricing_btn}>Get Started</Link>
                             </div>
@@ -319,8 +306,38 @@ function HomeContent(props) {
 
                             <div className={`${styles.pricing_card} ${styles.featured} ${styles.pricing_card_custom}`}>
                                 <div className={styles.pricingHead}>
-                                    <h3 className={styles.pricing_title}>Deluxe Plan</h3>
-                                    <p className={styles.pricing_price}>40000BDT</p>
+                                    <h3 className={styles.pricing_title}>Premium</h3>
+                                    <p className={styles.pricing_price}>5,000 BDT</p>
+                                    <h3 className={styles.pricing_title_month}>Per Month + Vat</h3>
+                                    {/* <p className={styles.pricing_price}>£<span className={styles.priceInner}>299</span></p> */}
+                                </div>
+                                <hr></hr>
+                                <ul className={styles.pricing_features}>
+                                    <li> <span>1.</span> 5 POSTS PER WEEK </li>
+                                    <li> <span>2.</span> UNIQUE CONTENT </li>
+                                    <li> <span>3.</span> BOOST SOCIAL ENGAGEMENT
+                                    AND GROWTH </li>
+                                    <li> <span>4.</span> BRANDED & UNIQUE GRAPHICS </li>
+                                    <li> <span>5.</span> PREVIEW POSTS ONE WEEK IN
+                                    ADVANCE </li>
+                                    <li> <span>6.</span> REAL-TIME SOCIAL MEDIA
+                                    ANALYTICS </li>
+                                    <li> <span>7.</span> 1 STRATEGY CALL PER MONTH
+                                    INCLUDED </li>
+                                    <li> <span>8.</span> ADDITIONAL SERVICES ARE
+                                    AVAILABLE </li>
+                                    <li> <span>9.</span> MONTHLY ROLLING CONTRACT </li>
+                                    <li> <span>10.</span> FAST CUSTOMER SUPPORT </li>
+                                    <li> <span>11.</span> NULL </li>
+                                </ul>
+                                <Link href="#" className={styles.pricing_btn}>Get Started</Link>
+                            </div>
+
+
+                            <div className={`${styles.pricing_card} ${styles.featured} ${styles.pricing_card_custom}`}>
+                                <div className={styles.pricingHead}>
+                                    <h3 className={styles.pricing_title}>P L A T I N U M</h3>
+                                    <p className={styles.pricing_price}>7,000BDT</p>
                                     <h3 className={styles.pricing_title_month}>Per Month + Vat</h3>
                                     {/* <p className={styles.pricing_price}>£<span className={styles.priceInner}>299</span></p> */}
                                 </div>
@@ -328,18 +345,25 @@ function HomeContent(props) {
                                 <ul className={styles.pricing_features}>
 
 
-                                    <li>7 bespoke posts per week to 4 platforms</li>
-                                    <li>Unique content specific to your business and interesting to your followers</li>
-                                    <li>A content strategy designed to boost social engagement and account growth</li>
-                                    <li>Branded graphics unique to your business</li>
-                                    <li>Preview posts one week in advance</li>
-                                    <li>Real time social media analytics</li>
-                                    <li>1 strategy call per month included</li>
-                                    <li>1 x 500 word SEO-optimised blog post</li>
-                                    <li>Facebook Ads campaign included</li>
-                                    <li>Downgrade at any time, additional services available at checkout</li>
-                                    <li>Monthly rolling contract - cancel any time</li>
-                                    <li>Priority customer support</li>
+                                    <li> <span>1.</span>  7 POSTS PER WEEK </li>
+                                    <li> <span>2.</span> UNIQUE CONTENT </li>
+                                    <li> <span>3.</span> BOOST SOCIAL ENGAGEMENT
+                                    AND GROWTH </li>
+                                    <li> <span>4.</span> PREVIEW POSTS ONE WEEK IN
+                                    ADVANCE </li>
+                                    <li> <span>5.</span>  REAL-TIME SOCIAL MEDIA
+                                    ANALYTICS </li>
+                                    <li> <span>6.</span> 1 STRATEGY CALL PER MONTH
+                                    INCLUDED </li>
+                                    <li> <span>7.</span>  1 X 500-WORD SEO-OPTIMISED
+                                    BLOG POST </li>
+                                    <li> <span>8.</span> FACEBOOK ADS CAMPAIGN
+                                    INCLUDED </li>
+                                    <li> <span>9.</span> ADDITIONAL SERVICES ARE
+                                    AVAILABLE </li>
+                                    <li> <span>10.</span> MONTHLY ROLLING CONTRACT </li>
+                                    <li> <span>11.</span> PRIORITY CUSTOMER SUPPORT </li>
+
                                 </ul>
                                 <Link href="#" className={styles.pricing_btn}>Get Started</Link>
                             </div>

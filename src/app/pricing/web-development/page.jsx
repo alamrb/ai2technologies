@@ -1,4 +1,3 @@
-import React from "react";
 import Link from "next/link";
 import styles from "../../home.module.css";
 
@@ -28,18 +27,26 @@ export default function Page() {
               className={`${styles.pricing_card} ${styles.featured} ${styles.pricing_card_custom}`}
             >
               <div className={styles.pricingHead}>
-                <h3 className={styles.pricing_title}>Basic Plan</h3>
-                <p className={styles.pricing_price}>8000 BDT</p>
+                <h3 className={styles.pricing_title}>Basic</h3>
+                <p className={styles.pricing_price}>5,000 BDT</p>
                 <h3 className={styles.pricing_title_month}> </h3>
               </div>
               <hr />
               <ul className={styles.pricing_features}>
-                <li>Up to 5 pages (Home, About, Services, Contact, etc.)</li>
-                <li>Mobile responsive design</li>
-                <li>Basic SEO optimization</li>
-                <li>Contact form integration</li>
-                <li>Delivery: 5–7 business days</li>
-                <li>Great customer support</li>
+                <li><span>1. </span>5 WEB PAGES </li>
+                <li><span>2. </span> MOBILE RESPONSIVE DESIGN</li>
+                <li><span>3. </span>BASIC SEO OPTIMIZATION </li>
+                <li><span>4. </span>CONTACT FORM INTEGRATION</li>
+                <li><span>5. </span>CONTACT FORM INTEGRATION</li>
+                <li><span>6. </span>GREAT CUSTOMER SUPPORT</li>
+                <li><span>7. </span>NULL</li>
+                <li><span>8. </span>NULL</li>
+                <li><span>9. </span>NULL</li>
+                <li><span>10. </span>NULL</li>
+                <li><span>11. </span>NULL</li>
+                <li><span>12. </span>NULL</li>
+                <li><span>13. </span>NULL</li>
+
               </ul>
               <Link href="#" className={styles.pricing_btn}>
                 Get Started
@@ -51,23 +58,27 @@ export default function Page() {
               className={`${styles.pricing_card} ${styles.featured} ${styles.pricing_card_custom}`}
             >
               <div className={styles.pricingHead}>
-                <h3 className={styles.pricing_title}>Standard Plan</h3>
-                <p className={styles.pricing_price}>20000 BDT</p>
+                <h3 className={styles.pricing_title}>Standard</h3>
+                <p className={styles.pricing_price}>8,000 BDT</p>
                 <h3 className={styles.pricing_title_month}> </h3>
               </div>
               <hr />
               <ul className={styles.pricing_features}>
-                <li>Up to 10 pages</li>
-                <li>Custom design & branding</li>
-                <li>Blog integration</li>
-                <li>Keyword mapping to target pages</li>
-                <li>Live chat setup (optional)</li>
-                <li>Basic analytics setup (Google Analytics)</li>
-                <li>Header Tags Optimized (Ex. H1s)</li>
-                <li>Delivery: 7–10 business days</li>
-                <li>Image optimization</li>
-                <li>Custom 404 error page setup and optimization</li>
-                <li>Great customer support</li>
+                <li><span>1. </span>10 WEB PAGES</li>
+                <li><span>2. </span>CUSTOM DESIGN & BRANDING </li>
+                <li><span>3. </span>BLOG INTEGRATION </li>
+                <li><span>4. </span>KEYWORD MAPPING TO TARGET
+                  PAGES</li>
+                <li><span>5. </span>GOOGLE ANALYTICS</li>
+                <li><span>6. </span>HEADER TAGS OPTIMIZE</li>
+                <li><span>7. </span>DELIVERY: 7–10 BUSINESS DAYS</li>
+                <li><span>8. </span> IMAGE OPTIMIZATION</li>
+                <li><span>9. </span>CUSTOM 404 ERROR PAGE
+                  SETUP AND OPTIMIZATION</li>
+                <li><span>10. </span>GREAT CUSTOMER SUPPORT</li>
+                <li><span>11. </span>NULL</li>
+                <li><span>12. </span>NULL</li>
+                <li><span>13. </span>NULL</li>
               </ul>
               <Link href="#" className={styles.pricing_btn}>
                 Get Started
@@ -79,33 +90,72 @@ export default function Page() {
               className={`${styles.pricing_card} ${styles.featured} ${styles.pricing_card_custom}`}
             >
               <div className={styles.pricingHead}>
-                <h3 className={styles.pricing_title}>Premium Plan</h3>
-                <p className={styles.pricing_price}>60000 BDT</p>
+                <h3 className={styles.pricing_title}>Premium</h3>
+                <p className={styles.pricing_price}>10,000 BDT</p>
                 <h3 className={styles.pricing_title_month}> </h3>
               </div>
               <hr />
               <ul className={styles.pricing_features}>
-                <li>Ecommerce Website</li>
-                <li>Custom design & branding</li>
-                <li>Blog integration</li>
-                <li>Keyword mapping to target pages</li>
-                <li>Live chat setup (optional)</li>
-                <li>Basic analytics setup (Google Analytics)</li>
-                <li>Header Tags Optimized (Ex. H1s)</li>
-                <li>Delivery: 10–25 business days</li>
-                <li>Image optimization</li>
-                <li>Custom 404 error page setup and optimization</li>
-                <li>Product listing & category pages</li>
-                <li>Shopping cart & checkout system</li>
-                <li>Payment gateway integration</li>
-                <li>Order management dashboard</li>
-                <li>Inventory management</li>
-                <li>Fast customer support</li>
+                <li><span>1. </span> ECOMMERCE WEBSITE</li>
+                <li><span>2. </span>CUSTOM DESIGN & BRANDING</li>
+                <li><span>3. </span>BLOG INTEGRATION</li>
+                <li><span>4. </span>KEYWORD MAPPING TO TARGET
+                  PAGES</li>
+                <li><span>5. </span>LIVE CHAT SETUP (OPTIONAL)</li>
+                <li><span>6. </span>GOOGLE ANALYTICS</li>
+                <li><span>7. </span>HEADER TAGS OPTIMIZED</li>
+                <li><span>8. </span>DELIVERY: 10–25 BUSINESS
+                  DAYS</li>
+                <li><span>9. </span>CUSTOM 404 ERROR PAGE
+                  SETUP AND OPTIMIZATION</li>
+                <li><span>10. </span>IMAGE OPTIMIZATION</li>
+                <li><span>11. </span>PRODUCT LISTING & CATEGORY
+                  PAGES</li>
+                <li><span>12. </span>NULL</li>
+                <li><span>13. </span>NULL</li>
               </ul>
               <Link href="#" className={styles.pricing_btn}>
                 Get Started
               </Link>
             </div>
+
+            <div
+              className={`${styles.pricing_card} ${styles.featured} ${styles.pricing_card_custom}`}
+            >
+              <div className={styles.pricingHead}>
+                <h3 className={styles.pricing_title}>PLATINUM</h3>
+                <p className={styles.pricing_price}>15,000 BDT</p>
+                <h3 className={styles.pricing_title_month}> </h3>
+              </div>
+              <hr />
+              <ul className={styles.pricing_features}>
+                <li><span>1. </span> ECOMMERCE WEBSITE</li>
+                <li><span>2. </span>CUSTOM DESIGN & BRANDING</li>
+                <li><span>3. </span>BLOG INTEGRATION</li>
+                <li><span>4. </span>KEYWORD MAPPING TO TARGET
+                  PAGES</li>
+                <li><span>5. </span>LIVE CHAT SETUP (OPTIONAL)</li>
+                <li><span>6. </span>GOOGLE ANALYTICS</li>
+                <li><span>7. </span>HEADER TAGS OPTIMIZED</li>
+                <li><span>8. </span>DELIVERY: 10–25 BUSINESS
+                  DAYS</li>
+                <li><span>9. </span>CUSTOM 404 ERROR PAGE
+                  SETUP AND OPTIMIZATION</li>
+                <li><span>10. </span>IMAGE OPTIMIZATION</li>
+                <li><span>11. </span>PRODUCT LISTING & CATEGORY
+                  PAGES</li>
+                <li><span>12. </span>SHOPPING CART & CHECKOUT
+                  SYSTEM</li>
+                <li><span>13. </span>AYMENT GATEWAY,
+                  DASHBOARD & INVENTORY
+                  MANAGEMENT</li>
+              </ul>
+              <Link href="#" className={styles.pricing_btn}>
+                Get Started
+              </Link>
+            </div>
+
+
           </div>
         </div>
       </div>

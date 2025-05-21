@@ -1,4 +1,3 @@
-import React from "react";
 import Link from "next/link";
 import styles from "../../home.module.css";
 
@@ -27,19 +26,32 @@ export default function Page() {
               className={`${styles.pricing_card} ${styles.featured} ${styles.pricing_card_custom}`}
             >
               <div className={styles.pricingHead}>
-                <h3 className={styles.pricing_title}>Basic Plan</h3>
-                <p className={styles.pricing_price}>20,000 BDT</p>
+                <h3 className={styles.pricing_title}>Basic</h3>
+                <p className={styles.pricing_price}>2,000 BDT</p>
                 <h3 className={styles.pricing_title_month}>Per Month + Vat</h3>
               </div>
               <hr />
               <ul className={styles.pricing_features}>
-                <li>Vulnerability scan</li>
-                <li>Basic firewall setup and monitoring</li>
-                <li>Anti-virus & malware protection</li>
-                <li>Data backup consultation</li>
-                <li>Email security setup</li>
-                <li>Monthly security report</li>
-                <li>Great customer support</li>
+                <li><span>1. </span>VULNERABILITY SCAN  </li>
+                <li><span>2. </span>FIREWALL SETUP & MONITORING </li>
+                <li><span>3. </span>ANTI-VIRUS & MALWARE
+                  PROTECTION </li>
+                <li><span>4. </span>DATA BACKUP CONSULTATION  </li>
+                <li><span>5. </span>EMAIL SECURITY SETUP  </li>
+                <li><span>6. </span>NULL </li>
+                <li><span>7. </span>NULL </li>
+                <li><span>8. </span>NULL </li>
+                <li><span>9. </span>NULL </li>
+                <li><span>10. </span>NULL </li>
+                <li><span>11. </span>NULL </li>
+                <li><span>12. </span>NULL </li>
+                <li><span>13. </span>NULL </li>
+                <li><span>14. </span>NULL </li>
+                <li><span>15. </span>NULL </li>
+                <li><span>16. </span>NULL </li>
+                <li><span>17. </span>NULL </li>
+                <li><span>18. </span>NULL </li>
+                <li><span>19. </span>NULL </li>
               </ul>
               <Link href="#" className={styles.pricing_btn}>
                 Get Started
@@ -51,58 +63,82 @@ export default function Page() {
               className={`${styles.pricing_card} ${styles.featured} ${styles.pricing_card_custom}`}
             >
               <div className={styles.pricingHead}>
-                <h3 className={styles.pricing_title}>Standard Plan</h3>
-                <p className={styles.pricing_price}>30,000 BDT</p>
+                <h3 className={styles.pricing_title}>Standard</h3>
+                <p className={styles.pricing_price}>5,000 BDT</p>
                 <h3 className={styles.pricing_title_month}>Per Month + Vat</h3>
               </div>
               <hr />
               <ul className={styles.pricing_features}>
-                <li>Vulnerability scan</li>
-                <li>Basic firewall setup and monitoring</li>
-                <li>Anti-virus & malware protection</li>
-                <li>Data backup consultation</li>
-                <li>Email security setup</li>
-                <li>Monthly security report</li>
-                <li>Intrusion detection system (IDS) setup</li>
-                <li>Endpoint protection (5–15 devices)</li>
-                <li>Secure cloud configuration audit</li>
-                <li>Data loss prevention (DLP) basics</li>
-                <li>Security awareness training (quarterly)</li>
-                <li>Great customer support</li>
+                <li><span>1. </span>VULNERABILITY SCAN </li>
+                <li><span>2. </span>FIREWALL SETUP & MONITORING </li>
+                <li><span>3. </span>ANTI-VIRUS & MALWARE
+                  PROTECTION </li>
+                <li><span>4. </span>DATA BACKUP CONSULTATION </li>
+                <li><span>5. </span>EMAIL SECURITY SETUP </li>
+                <li><span>6. </span>MONTHLY SECURITY REPORT </li>
+                <li><span>7. </span>INTRUSION DETECTION SYSTEM
+                  (IDS) SETUP </li>
+                <li><span>8. </span>ENDPOINT PROTECTION (5–15
+                  DEVICES) </li>
+                <li><span>9. </span>ENSURE CLOUD
+                  CONFIGURATION AUDIT </li>
+                <li><span>10. </span>DATA LOSS PREVENTION (DLP)
+                  BASICS </li>
+                <li><span>11. </span>SECURITY AWARENESS
+                  TRAINING (QUARTERLY) </li>
+                <li><span>12. </span>GREAT CUSTOMER SUPPORT </li>
+                <li><span>13. </span>NULL </li>
+                <li><span>14. </span>NULL </li>
+                <li><span>15. </span>NULL </li>
+                <li><span>16. </span>NULL </li>
+                <li><span>17. </span>NULL </li>
+                <li><span>18. </span>NULL </li>
+                <li><span>19. </span>NULL</li>
               </ul>
               <Link href="#" className={styles.pricing_btn}>
                 Get Started
               </Link>
             </div>
 
-            {/* Premium Plan */}
+            {/* Premium Pşan */}
             <div
               className={`${styles.pricing_card} ${styles.featured} ${styles.pricing_card_custom}`}
             >
               <div className={styles.pricingHead}>
-                <h3 className={styles.pricing_title}>Premium Plan</h3>
-                <p className={styles.pricing_price}>45,000 BDT</p>
+                <h3 className={styles.pricing_title}>Premium</h3>
+                <p className={styles.pricing_price}>10,000 BDT</p>
                 <h3 className={styles.pricing_title_month}>Per Month + Vat</h3>
               </div>
               <hr />
               <ul className={styles.pricing_features}>
-                <li>Vulnerability scan</li>
-                <li>Basic firewall setup and monitoring</li>
-                <li>Anti-virus & malware protection</li>
-                <li>Data backup consultation</li>
-                <li>Email security setup</li>
-                <li>Monthly security report</li>
-                <li>Intrusion detection system (IDS) setup</li>
-                <li>Endpoint protection (5–15 devices)</li>
-                <li>Secure cloud configuration audit</li>
-                <li>Data loss prevention (DLP) basics</li>
-                <li>Security awareness training (quarterly)</li>
-                <li>24/7 threat monitoring & incident response</li>
-                <li>
-                  A/B Testing of SERP title & description to improve
-                  clickthrough
-                </li>
-                <li>Fast customer support</li>
+                <li><span>1. </span>VULNERABILITY SCAN</li>
+                <li><span>2. </span>FIREWALL SETUP & MONITORING</li>
+                <li><span>3. </span>ANTI-VIRUS & MALWARE
+                  PROTECTION</li>
+                <li><span>4. </span>DATA BACKUP CONSULTATION</li>
+                <li><span>5. </span>EMAIL SECURITY SETUP</li>
+                <li><span>6. </span>MONTHLY SECURITY REPORT</li>
+                <li><span>7. </span>INTRUSION DETECTION SYSTEM
+                  (IDS) SETUP</li>
+                <li><span>8. </span>ENDPOINT PROTECTION (5–15
+                  DEVICES)</li>
+                <li><span>9. </span>ENSURE CLOUD
+                  CONFIGURATION AUDIT</li>
+                <li><span>10. </span>DATA LOSS PREVENTION (DLP)
+                  BASICS</li>
+                <li><span>11. </span>SECURITY AWARENESS
+                  TRAINING (QUARTERLY)</li>
+                <li><span>12. </span>24/7 THREAT MONITORING &
+                  INCIDENT RESPONSE</li>
+                <li><span>13. </span>A/B TESTING OF SERP TITLE &
+                  DESCRIPTION TO IMPROVE
+                  CLICKTHROUGH</li>
+                <li><span>14. </span>FAST CUSTOMER SUPPORT</li>
+                <li><span>15. </span>NULL</li>
+                <li><span>16. </span>NULL</li>
+                <li><span>17. </span>NULL</li>
+                <li><span>18. </span>NULL</li>
+                <li><span>19. </span>NULL</li>
               </ul>
               <Link href="#" className={styles.pricing_btn}>
                 Get Started
@@ -114,34 +150,45 @@ export default function Page() {
               className={`${styles.pricing_card} ${styles.featured} ${styles.pricing_card_custom}`}
             >
               <div className={styles.pricingHead}>
-                <h3 className={styles.pricing_title}>Deluxe Plan</h3>
-                <p className={styles.pricing_price}>65,000 BDT</p>
+                <h3 className={styles.pricing_title}>PLATINUM</h3>
+                <p className={styles.pricing_price}>20,000 BDT</p>
                 <h3 className={styles.pricing_title_month}>Per Month + Vat</h3>
               </div>
               <hr />
               <ul className={styles.pricing_features}>
-                <li>Vulnerability scan</li>
-                <li>Basic firewall setup and monitoring</li>
-                <li>Anti-virus & malware protection</li>
-                <li>Data backup consultation</li>
-                <li>Email security setup</li>
-                <li>Monthly security report</li>
-                <li>Intrusion detection system (IDS) setup</li>
-                <li>Endpoint protection (5–15 devices)</li>
-                <li>Secure cloud configuration audit</li>
-                <li>Data loss prevention (DLP) basics</li>
-                <li>Security awareness training (quarterly)</li>
-                <li>24/7 threat monitoring & incident response</li>
-                <li>
-                  A/B Testing of SERP title & description to improve
-                  clickthrough
-                </li>
-                <li>Advanced penetration testing (bi-annually)</li>
-                <li>Zero-trust architecture consulting</li>
-                <li>Identity & Access Management (IAM) setup</li>
-                <li>Compliance support (GDPR, ISO, HIPAA)</li>
-                <li>Dedicated Security Consultant</li>
-                <li>Priority customer support</li>
+                <li><span>1. </span>VULNERABILITY SCAN</li>
+                <li><span>2. </span>FIREWALL SETUP & MONITORING</li>
+                <li><span>3. </span>ANTI-VIRUS & MALWARE
+                  PROTECTION</li>
+                <li><span>4. </span>DATA BACKUP CONSULTATION</li>
+                <li><span>5. </span>EMAIL SECURITY SETUP</li>
+                <li><span>6. </span>MONTHLY SECURITY REPORT</li>
+                <li><span>7. </span>INTRUSION DETECTION SYSTEM
+                  (IDS) SETUP</li>
+                <li><span>8. </span>ENDPOINT PROTECTION (5–15
+                  DEVICES)</li>
+                <li><span>9. </span>ENSURE CLOUD
+                  CONFIGURATION AUDIT</li>
+                <li><span>10. </span>DATA LOSS PREVENTION (DLP)
+                  BASICS</li>
+                <li><span>11. </span>SECURITY AWARENESS
+                  TRAINING (QUARTERLY)</li>
+                <li><span>12. </span>24/7 THREAT MONITORING &
+                  INCIDENT RESPONSE</li>
+                <li><span>13. </span>A/B TESTING OF SERP TITLE &
+                  DESCRIPTION TO IMPROVE
+                  CLICKTHROUGH</li>
+                <li><span>14. </span>ADVANCED PENETRATION
+                  TESTING (BI-ANNUALLY)</li>
+                <li><span>15. </span>ZERO-TRUST ARCHITECTURE
+                  CONSULTING</li>
+                <li><span>16. </span>IDENTITY & ACCESS
+                  MANAGEMENT (IAM) SETUP</li>
+                <li><span>17. </span>COMPLIANCE SUPPORT (GDPR,
+                  ISO, HIPAA)</li>
+                <li><span>18. </span>DEDICATED SECURITY
+                  CONSULTANT</li>
+                <li><span>19. </span>PRIORITY CUSTOMER SUPPORT</li>
               </ul>
               <Link href="#" className={styles.pricing_btn}>
                 Get Started
