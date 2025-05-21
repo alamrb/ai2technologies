@@ -63,8 +63,8 @@ export default function AppHome() {
 
                             <div className={styles.button_section}>
                                 <Link href={'/career'} className={styles.button_design}> Career </Link>
-                                <Link href={'/develop'} className={styles.button_design}> Services </Link>
-                                <Link href={'/develop/developForm'} className={styles.button_design}> Develop </Link>
+                                <Link href={'/services'} className={styles.button_design}> Services </Link>
+                                <Link href={'/services/developForm'} className={styles.button_design}> Develop </Link>
                             </div>
 
                             <div className={styles.mainBottomText}>

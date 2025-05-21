@@ -1,6 +1,6 @@
 
 import Link from 'next/link';
-import styles from '../develop/develop.module.css'
+import styles from '../services/develop.module.css'
 import { FaCircle } from "react-icons/fa";
 
 

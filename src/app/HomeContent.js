@@ -176,24 +176,24 @@ function HomeContent(props) {
                         <div className={styles.service_inner_container}>
                             <div className={styles.service_content_section}>
                                 <div className={styles.service_item_section}>
-                                    <Link href={'/develop'} className={styles.service_item}>
+                                    <Link href={'/services'} className={styles.service_item}>
                                         <div className={styles.service_title}>Bespoke Software Development</div>
                                         <div className={styles.service_content}>Comprehensive bespoke software development services, covering the entire process from ideation to delivery. Elevate your business efficiency, innovate in the market, and foster widespread end-user adoption.</div>
-                                        <div className={styles.service_tell_me_more_section}><Link href='/develop'> more </Link> <BsArrowRight /> </div>
+                                        <div className={styles.service_tell_me_more_section}><Link href='/services'> more </Link> <BsArrowRight /> </div>
                                     </Link>
-                                    <Link href={'/develop'} className={styles.service_item}>
+                                    <Link href={'/services'} className={styles.service_item}>
                                         <div className={styles.service_title} >Development Team Argumentation</div>
                                         <div className={styles.service_content}> Efficient and agile team expansion to strategically enhance your capabilities and expedite the implementation of your digital initiatives.</div>
-                                        <div className={styles.service_tell_me_more_section}> <Link href='/develop'> more  </Link> <BsArrowRight />  </div>
+                                        <div className={styles.service_tell_me_more_section}> <Link href='/services'> more  </Link> <BsArrowRight />  </div>
                                     </Link>
-                                    <Link href={'/develop'} className={styles.service_item} style={{ borderRight: 'none' }}>
+                                    <Link href={'/services'} className={styles.service_item} style={{ borderRight: 'none' }}>
                                         <div className={styles.service_title}>Digital Transformation</div>
                                         <div className={styles.service_content}>The process of leveraging cutting-edge technology and innovative strategies to fundamentally reshape and optimize business operations, customer experiences, and organizational culture for the digital age.</div>
-                                        <div className={styles.service_tell_me_more_section}><Link href='/develop'> more </Link> <BsArrowRight /> </div>
+                                        <div className={styles.service_tell_me_more_section}><Link href='/services'> more </Link> <BsArrowRight /> </div>
                                     </Link>
                                 </div>
                                 <div className={styles.service_all_btn_section}>
-                                    <Link href='/develop' className={styles.btn_item}>See all services <BsArrowRight /> </Link>
+                                    <Link href='/services' className={styles.btn_item}>See all services <BsArrowRight /> </Link>
                                 </div>
                             </div>
                         </div>
