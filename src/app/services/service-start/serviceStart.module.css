@@ -1,0 +1,264 @@
+.container {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  background-color: white;
+  height: 100%;
+}
+
+.left_section {
+  width: 50%;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: scroll;
+  padding: 1.5rem;
+}
+
+.step_box {
+  height: 100%;
+  width: 100%;
+  border: none;
+  padding: 1rem;
+}
+
+.step_title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.base_package {
+  background-color: #f3f4f6;
+  padding: 1rem;
+}
+
+.base_package ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  font-size: 0.875rem;
+}
+
+.base_package p {
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+
+.page_grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.page_button {
+  background-color: white;
+  border: 1px solid #d1d5db;
+  text-align: left;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.page_button:hover {
+  background-color: #f9fafb;
+}
+
+.page_button p {
+  margin: 0.25rem 0;
+  font-size: 0.875rem;
+}
+
+.page_button p:first-child {
+  font-weight: 600;
+}
+
+.page_button .price {
+  font-weight: 500;
+  margin-top: 0.25rem;
+}
+
+.select_input {
+  width: 100%;
+  border: 1px solid #d1d5db;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.frequency_grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.frequency_button {
+  background-color: white;
+  border: 1px solid #d1d5db;
+  text-align: left;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.frequency_button:hover {
+  background-color: #f9fafb;
+}
+
+.frequency_button p:first-child {
+  font-weight: 600;
+}
+
+.frequency_button p:last-child {
+  font-size: 0.875rem;
+}
+
+.right_summary {
+  width: 50%;
+  padding: 1.5rem;
+  background-color: #3b82f6;
+  color: white;
+  height: 100%;
+}
+
+/* summary */
+
+/* Summary.module.css */
+
+.summaryContainer {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.summaryBox {
+  background-color: #3b82f6;
+  color: white;
+  padding: 24px;
+  font-size: 14px;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.lineItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  margin: 16px 0;
+}
+
+.totalLine {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  background: white;
+}
+
+.leftPanel {
+  width: 66.66%;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.rightPanel {
+  width: 33.33%;
+  padding: 24px;
+  background-color: #3b82f6;
+  color: white;
+}
+
+.checkoutSection {
+  border: 0;
+}
+
+.sectionTitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+}
+
+.inputHalf {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0;
+}
+
+.inputFull {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0;
+}
+
+.inputThird {
+  width: 33.33%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0;
+}
+
+.inputTwoThird {
+  width: 66.66%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0;
+}
+
+.checkboxRow,
+.radioRow {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.paymentTitle {
+  font-weight: 600;
+}
+
+.paymentOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.submitButton {
+  background-color: #22c55e;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #16a34a;
+}
