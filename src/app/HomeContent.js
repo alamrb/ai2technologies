@@ -365,7 +365,31 @@ function HomeContent(props) {
                                     <li> <span>11.</span> PRIORITY CUSTOMER SUPPORT </li>
 
                                 </ul>
-                                <Link href={{ pathname: '/services/service-start', query: { base: 7000 } }} className={styles.pricing_btn}>Get Started</Link>
+                                <Link
+                                    href={{
+                                        pathname: "/services/service-start",
+                                        query: {
+                                            base: 7000,
+                                            title: "PLATINUM",
+                                            features: JSON.stringify([
+                                                "7 POSTS PER WEEK",
+                                                "UNIQUE CONTENT",
+                                                "BOOST SOCIAL ENGAGEMENT AND GROWTH",
+                                                "PREVIEW POSTS ONE WEEK IN ADVANCE",
+                                                "REAL-TIME SOCIAL MEDIA ANALYTICS",
+                                                "1 STRATEGY CALL PER MONTH INCLUDED",
+                                                "1 X 500-WORD SEO-OPTIMISED BLOG POST",
+                                                "FACEBOOK ADS CAMPAIGN INCLUDED",
+                                                "ADDITIONAL SERVICES ARE AVAILABLE",
+                                                "MONTHLY ROLLING CONTRACT",
+                                                "PRIORITY CUSTOMER SUPPORT"
+                                            ])
+                                        }
+                                    }}
+                                    className={styles.pricing_btn}
+                                >
+                                    Get Started
+                                </Link>
                             </div>
 
 

@@ -24,9 +24,13 @@
 }
 
 .step_title {
-  font-size: 1.25rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
+  text-align: left;
+  font-size: 22px;
+  font-weight: 300;
+  font-family: var(--Poppins);
+  color: var(--red);
+  text-transform: uppercase;
+  padding-bottom: 15px;
 }
 
 .base_package {
@@ -35,9 +39,24 @@
 }
 
 .base_package ul {
-  list-style-type: disc;
-  padding-left: 1.5rem;
-  font-size: 0.875rem;
+  text-align: left;
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--blue);
+  font-family: var(--Poppins);
+  padding-bottom: 15px;
+}
+.base_package ul li {
+  list-style: disc;
+  margin-bottom: 5px;
+}
+.base_package_price {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--blue);
+  font-family: var(--Poppins);
+  padding-bottom: 15px;
 }
 
 .base_package p {
@@ -45,36 +64,48 @@
   font-weight: 600;
 }
 
-.page_grid {
+.grid_two_column {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
 }
 
 .page_button {
-  background-color: white;
-  border: 1px solid #d1d5db;
-  text-align: left;
-  padding: 0.5rem 1rem;
-  transition: background-color 0.2s ease;
+  font-weight: 300;
+  color: var(--blue);
+  font-family: var(--Poppins);
+  letter-spacing: 0.5px;
+  line-height: 22px;
+  padding: 15px;
+  border: none;
+  border: 1px solid #ff000040;
+  box-sizing: border-box;
+}
+.activePage_button {
+  background-color: rgba(255, 0, 0, 0.2);
+  color: var(--blue);
+  border: none;
 }
 
 .page_button:hover {
-  background-color: #f9fafb;
+  background-color: rgba(255, 0, 0, 0.2);
 }
 
-.page_button p {
+.page_button_title {
   margin: 0.25rem 0;
-  font-size: 0.875rem;
-}
-
-.page_button p:first-child {
+  font-size: 16px;
   font-weight: 600;
 }
 
-.page_button .price {
+.page_button_desc {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.page_button_price {
   font-weight: 500;
-  margin-top: 0.25rem;
+  margin-top: 8px;
+  font-size: 20px;
 }
 
 .select_input {
@@ -109,6 +140,44 @@
 .frequency_button p:last-child {
   font-size: 0.875rem;
 }
+.custom_input_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Label for custom input */
+.custom_label {
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+  color: #374151;
+}
+
+/* Input field styling */
+.custom_input {
+  font-size: 1rem;
+  padding: 0.3rem 0.5rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  outline: none;
+  width: 100%;
+}
+
+/* Change border color on focus */
+.custom_input:focus {
+  border-color: #60a5fa;
+  box-shadow: 0 0 3px #60a5fa;
+}
+
+/* Description text under input */
+.page_button_desc {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #6b7280;
+}
 
 .right_summary {
   width: 50%;
@@ -116,6 +185,7 @@
   background-color: #3b82f6;
   color: white;
   height: 100%;
+  overflow: scroll;
 }
 
 /* summary */
@@ -124,10 +194,10 @@
 
 .summaryContainer {
   width: 100%;
-  min-height: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
 }
 
 .summaryBox {
