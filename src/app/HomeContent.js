@@ -7,16 +7,10 @@ import Link from 'next/link';
 import { useEffect, useRef, useState } from "react";
 import { isMobile } from 'react-device-detect';
 import { BsArrowRight } from "react-icons/bs";
-import { GoArrowDown } from "react-icons/go";
 import HomeSlider from './HomeSlider';
 import TextSlider from './TextSlider';
 import AE_logo_new from './assets/AE-logo-new.png';
 import AppStore from './assets/appStore.png';
-import trip_logo from './assets/images/50p_trip.png';
-import CDT_letter_logo from './assets/images/CDT_letter.png';
-import Nosurge_logo from './assets/images/NOSURGE.png';
-import Share_a_car_logo from './assets/images/Share-A-Car_LOGO.png';
-import UKBD_logo from './assets/images/UKBD.png';
 import Play from './assets/play.png';
 import styles from './home.module.css';
 import Footer from './home/footer';
@@ -177,7 +171,7 @@ function HomeContent(props) {
                             <div className={styles.service_content_section}>
                                 <div className={styles.service_item_section}>
                                     <Link href={'/services'} className={styles.service_item}>
-                                        <div className={styles.service_title}>Bespoke Software Development</div>
+                                        <div className={styles.service_title}>Web Development</div>
                                         <div className={styles.service_content}>Comprehensive bespoke software development services, covering the entire process from ideation to delivery. Elevate your business efficiency, innovate in the market, and foster widespread end-user adoption.</div>
                                         <div className={styles.service_tell_me_more_section}><Link href='/services'> more </Link> <BsArrowRight /> </div>
                                     </Link>
@@ -200,7 +194,7 @@ function HomeContent(props) {
                     </div>
                 </div>
             </div>
-            <div className={styles.product_container} id='case-studies'>
+            {/* <div className={styles.product_container} id='case-studies'>
                 <div className={styles.product_item}>
                     <div className={styles.platform_container}>
                         <div className={styles.inner_platform_container}>
@@ -236,7 +230,7 @@ function HomeContent(props) {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
 
 
@@ -411,7 +405,7 @@ function HomeContent(props) {
 
 
 
-            <div className={styles.product_container} >
+            {/* <div className={styles.product_container} >
                 <div className={styles.product_item}>
                     <div className={styles.your_queries_container}>
                         <div className={styles.your_queries_inner_container}>
@@ -456,7 +450,7 @@ function HomeContent(props) {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <Footer />
         </div >
     );

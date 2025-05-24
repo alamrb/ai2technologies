@@ -76,7 +76,7 @@ export default function Header() {
                     <div className={styles.menu_group}>
                         <div className={styles.menu_items}>
                             <div className={styles.LinkBox} >
-                                <Link href="/case-studies"> <div className={`${styles.menu_item_list} ${pathname.indexOf('/case-studies') > -1 ? styles.active : ''}`} > Case Studies</div></Link>
+                                {/* <Link href="/case-studies"> <div className={`${styles.menu_item_list} ${pathname.indexOf('/case-studies') > -1 ? styles.active : ''}`} > Case Studies</div></Link> */}
                                 {/* <Link href="/career"><div className={`${styles.menu_item_list} ${pathname.indexOf('/career') > -1 ? styles.active : ''}`}>Career</div> </Link> */}
                                 <Link href="/technologies"><div className={`${styles.menu_item_list} ${pathname.indexOf('/technologies') > -1 ? styles.active : ''}`} onMouseEnter={() => set_open_menu('technologies')}> Technologies <TfiAngleDown style={{ fontSize: '10px' }} /> </div></Link>
                                 <Link href="/company"><div className={`${styles.menu_item_list} ${pathname.indexOf('/company') > -1 ? styles.active : ''}`} onMouseEnter={() => set_open_menu('company')} >Company <TfiAngleDown style={{ fontSize: '10px' }} /> </div> </Link>
@@ -88,7 +88,7 @@ export default function Header() {
                     </div>
                     <div className={styles.menu_group}>
                         <div className={styles.menu_item_list}>
-                            <Link href="/services/developForm" className={`${styles.develop_button} ${pathname.indexOf('/developForm') > -1 ? styles.active : ''}`}> Start Developing </Link>
+                            {/* <Link href="/services/developForm" className={`${styles.develop_button} ${pathname.indexOf('/developForm') > -1 ? styles.active : ''}`}> Start Developing </Link> */}
                         </div>
                     </div>
 
