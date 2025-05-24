@@ -265,7 +265,7 @@ function HomeContent(props) {
                                     <li>  <span>3.</span> BOOST SOCIAL ENGAGEMENT </li>
                                     <li> <span>4.</span> BRANDED & UNIQUE GRAPHICS </li>
                                     <li> <span>5.</span> ADDITIONAL SERVICES
-                                    AVAILABLE AT CHECKOUT</li>
+                                        AVAILABLE AT CHECKOUT</li>
                                     <li> <span>6.</span> MONTHLY ROLLING CONTRACT </li>
                                     <li> <span>7.</span>GREAT CUSTOMER SUPPORT</li>
                                     <li> <span>8.</span> FAST CUSTOMER SUPPORT</li>
@@ -290,11 +290,11 @@ function HomeContent(props) {
                                     <li> <span>3.</span> BOOST SOCIAL ENGAGEMENT </li>
                                     <li> <span>4.</span> BRANDED & UNIQUE GRAPHICS </li>
                                     <li> <span>5.</span> REAL-TIME SOCIAL MEDIA
-                                    ANALYTICS </li>
+                                        ANALYTICS </li>
                                     <li> <span>6.</span> ADDITIONAL SERVICES
-                                    AVAILABLE AT CHECKOUT </li>
+                                        AVAILABLE AT CHECKOUT </li>
                                     <li> <span>7.</span> MONTHLY ROLLING CONTRACT
-                                    - CANCEL ANY TIME </li>
+                                        - CANCEL ANY TIME </li>
                                     <li> <span>8.</span> GREAT CUSTOMER SUPPORT </li>
                                     <li> <span>9.</span> FAST CUSTOMER SUPPORT </li>
                                     <li> <span>10.</span> NULL </li>
@@ -316,16 +316,16 @@ function HomeContent(props) {
                                     <li> <span>1.</span> 5 POSTS PER WEEK </li>
                                     <li> <span>2.</span> UNIQUE CONTENT </li>
                                     <li> <span>3.</span> BOOST SOCIAL ENGAGEMENT
-                                    AND GROWTH </li>
+                                        AND GROWTH </li>
                                     <li> <span>4.</span> BRANDED & UNIQUE GRAPHICS </li>
                                     <li> <span>5.</span> PREVIEW POSTS ONE WEEK IN
-                                    ADVANCE </li>
+                                        ADVANCE </li>
                                     <li> <span>6.</span> REAL-TIME SOCIAL MEDIA
-                                    ANALYTICS </li>
+                                        ANALYTICS </li>
                                     <li> <span>7.</span> 1 STRATEGY CALL PER MONTH
-                                    INCLUDED </li>
+                                        INCLUDED </li>
                                     <li> <span>8.</span> ADDITIONAL SERVICES ARE
-                                    AVAILABLE </li>
+                                        AVAILABLE </li>
                                     <li> <span>9.</span> MONTHLY ROLLING CONTRACT </li>
                                     <li> <span>10.</span> FAST CUSTOMER SUPPORT </li>
                                     <li> <span>11.</span> NULL </li>
@@ -348,24 +348,48 @@ function HomeContent(props) {
                                     <li> <span>1.</span>  7 POSTS PER WEEK </li>
                                     <li> <span>2.</span> UNIQUE CONTENT </li>
                                     <li> <span>3.</span> BOOST SOCIAL ENGAGEMENT
-                                    AND GROWTH </li>
+                                        AND GROWTH </li>
                                     <li> <span>4.</span> PREVIEW POSTS ONE WEEK IN
-                                    ADVANCE </li>
+                                        ADVANCE </li>
                                     <li> <span>5.</span>  REAL-TIME SOCIAL MEDIA
-                                    ANALYTICS </li>
+                                        ANALYTICS </li>
                                     <li> <span>6.</span> 1 STRATEGY CALL PER MONTH
-                                    INCLUDED </li>
+                                        INCLUDED </li>
                                     <li> <span>7.</span>  1 X 500-WORD SEO-OPTIMISED
-                                    BLOG POST </li>
+                                        BLOG POST </li>
                                     <li> <span>8.</span> FACEBOOK ADS CAMPAIGN
-                                    INCLUDED </li>
+                                        INCLUDED </li>
                                     <li> <span>9.</span> ADDITIONAL SERVICES ARE
-                                    AVAILABLE </li>
+                                        AVAILABLE </li>
                                     <li> <span>10.</span> MONTHLY ROLLING CONTRACT </li>
                                     <li> <span>11.</span> PRIORITY CUSTOMER SUPPORT </li>
 
                                 </ul>
-                                <Link href="#" className={styles.pricing_btn}>Get Started</Link>
+                                <Link
+                                    href={{
+                                        pathname: "/services/service-start",
+                                        query: {
+                                            base: 7000,
+                                            title: "PLATINUM",
+                                            features: JSON.stringify([
+                                                "7 POSTS PER WEEK",
+                                                "UNIQUE CONTENT",
+                                                "BOOST SOCIAL ENGAGEMENT AND GROWTH",
+                                                "PREVIEW POSTS ONE WEEK IN ADVANCE",
+                                                "REAL-TIME SOCIAL MEDIA ANALYTICS",
+                                                "1 STRATEGY CALL PER MONTH INCLUDED",
+                                                "1 X 500-WORD SEO-OPTIMISED BLOG POST",
+                                                "FACEBOOK ADS CAMPAIGN INCLUDED",
+                                                "ADDITIONAL SERVICES ARE AVAILABLE",
+                                                "MONTHLY ROLLING CONTRACT",
+                                                "PRIORITY CUSTOMER SUPPORT"
+                                            ])
+                                        }
+                                    }}
+                                    className={styles.pricing_btn}
+                                >
+                                    Get Started
+                                </Link>
                             </div>
 
 
