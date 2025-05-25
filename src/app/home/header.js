@@ -221,21 +221,26 @@ export default function Header() {
                                         <div className={styles.mega_menu_title}>Our Process</div>
                                         <div className={styles.mega_menu_content}>Embrace our proven process for crafting highly efficient and fully customized software systems.</div>
                                     </Link>
-                                    <Link onClick={() => set_open_menu('')} href={'/technologies'} className={styles.mega_menu_item_section}>
+                                    {/* <Link onClick={() => set_open_menu('')} href={'/technologies'} className={styles.mega_menu_item_section}>
                                         <div className={styles.mega_menu_title}>Technologies</div>
                                         <div className={styles.mega_menu_content}>We carefully choose tools and technologies based on the specific needs of every project</div>
-                                    </Link>
+                                    </Link> */}
                                 </div>
                                 <div className={styles.mega_menu_item_container}>
-                                    <Link onClick={() => set_open_menu('')} href={'/company/pricing'} className={styles.mega_menu_item_section}>
+                                    {/* <Link onClick={() => set_open_menu('')} href={'/company/pricing'} className={styles.mega_menu_item_section}>
                                         <div className={styles.mega_menu_title}>Pricing</div>
                                         <div className={styles.mega_menu_content}>The comprehensive factors to consider when assessing development costs.</div>
                                     </Link>
-                                    <Link onClick={() => set_open_menu('')} href={'/faqs'} className={styles.mega_menu_item_section}></Link>
+                                    <Link onClick={() => set_open_menu('')} href={'/faqs'} className={styles.mega_menu_item_section}></Link> */}
                                     {/* <Link href={'/faqs'} className={styles.mega_menu_item_section}>
                                             <div className={styles.mega_menu_title}>FAQs</div>
                                             <div className={styles.mega_menu_content}> Answering some of the most common questions that you may have in mind </div>
                                         </Link> */}
+                                    
+                                    <Link onClick={() => set_open_menu('')} href={'/technologies'} className={styles.mega_menu_item_section}>
+                                        <div className={styles.mega_menu_title}>Technologies</div>
+                                        <div className={styles.mega_menu_content}>We carefully choose tools and technologies based on the specific needs of every project</div>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

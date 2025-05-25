@@ -2,16 +2,12 @@
 import Double_Scroll_client_arefin from "@/app/home/product/Double_Scroll_client_arefin";
 import Scroll_testing_client_arefin from "@/app/home/product/scroll_testing_client_arefin";
 import useWindowSize from "@/app/home/product/useWindowSize";
-import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useRef, useState } from "react";
 import { isMobile } from 'react-device-detect';
 import { BsArrowRight } from "react-icons/bs";
 import HomeSlider from './HomeSlider';
 import TextSlider from './TextSlider';
-import AE_logo_new from './assets/AE-logo-new.png';
-import AppStore from './assets/appStore.png';
-import Play from './assets/play.png';
 import styles from './home.module.css';
 import Footer from './home/footer';
 
@@ -126,10 +122,10 @@ function HomeContent(props) {
                 <div className={styles.product_item} style={{ position: 'relative', zIndex: 1 }}>
                     <div className={styles.left_side} style={{ backgroundColor: 'rgb(255 255 255 / 85%)' }}>
                         <div className={styles.product_description} style={{ flexDirection: 'column' }}>
-                            <div className={styles.mainTopContainer}>
+                            {/* <div className={styles.mainTopContainer}>
                                 <Image src={AE_logo_new} className={styles.newLogo} alt='' />
-                            </div>
-                            <div className={styles.appLogoGroup}>
+                            </div> */}
+                            {/* <div className={styles.appLogoGroup}>
                                 {(device && (device === "web")) ?
                                     <>
                                         <Link href="#" target="_blank" rel="noopener noreferrer"><Image src={Play} className={styles.appLogo} alt='' /></Link>
@@ -137,13 +133,13 @@ function HomeContent(props) {
                                     </>
                                     : null
                                 }
-                            </div>
+                            </div> */}
 
-                            <div className={styles.mainMidContainer}>
+                            {/* <div className={styles.mainMidContainer}>
                                 <p>Unleashing Innovation Anytime Everywhere</p>
-                            </div>
+                            </div> */}
                             <div className={styles.mainBottomText}>
-                                <p className={styles.welcome_text} >Welcome to AE TechSphere, your dynamic portal for the latest in tech innovations. At AE, we believe in unlocking the power of technology Anytime, Everywhere, empowering individuals and businesses to thrive in the digital era.</p>
+                                <p className={styles.welcome_text} >Welcome to ai2technologies, your dynamic portal for the latest in tech innovations. At ai2technologies, we believe in unlocking the power of technology Anytime, Everywhere, empowering individuals and businesses to thrive in the digital era.</p>
                                 <div className={styles.container_Button}><Link href='#' onClick={slide_down_1}>
                                     <div className={styles.navButtonsBottom}>Learn More </div>
                                 </Link></div>
@@ -172,7 +168,7 @@ function HomeContent(props) {
                                 <div className={styles.service_item_section}>
                                     <Link href={'/services'} className={styles.service_item}>
                                         <div className={styles.service_title}>Web Development</div>
-                                        <div className={styles.service_content}>Comprehensive bespoke software development services, covering the entire process from ideation to delivery. Elevate your business efficiency, innovate in the market, and foster widespread end-user adoption.</div>
+                                        <div className={styles.service_content}>Comprehensive web development services, covering the entire process from ideation to delivery. Elevate your business efficiency, innovate in the market, and foster widespread end-user adoption.</div>
                                         <div className={styles.service_tell_me_more_section}><Link href='/services'> more </Link> <BsArrowRight /> </div>
                                     </Link>
                                     <Link href={'/services'} className={styles.service_item}>
@@ -249,23 +245,24 @@ function HomeContent(props) {
                                 <div className={styles.pricingHead}>
                                     <h3 className={styles.pricing_title}>Basic</h3>
                                     <p className={styles.pricing_price}>1,500 BDT</p>
-                                    <h3 className={styles.pricing_title_month}>Per Month + Vat</h3>
+                                    {/* <h3 className={styles.pricing_title_month}>Per Month + Vat</h3> */}
                                     {/* <p className={styles.pricing_price}>£<span className={styles.priceInner}>299</span></p> */}
                                 </div>
                                 <hr></hr>
                                 <ul className={styles.pricing_features}>
-                                    <li> <span>1.</span> POST PER WEEK </li>
-                                    <li> <span>2.</span> UNIQUE CONTENT </li>
-                                    <li>  <span>3.</span> BOOST SOCIAL ENGAGEMENT </li>
-                                    <li> <span>4.</span> BRANDED & UNIQUE GRAPHICS </li>
-                                    <li> <span>5.</span> ADDITIONAL SERVICES
-                                        AVAILABLE AT CHECKOUT</li>
-                                    <li> <span>6.</span> MONTHLY ROLLING CONTRACT </li>
-                                    <li> <span>7.</span>GREAT CUSTOMER SUPPORT</li>
-                                    <li> <span>8.</span> FAST CUSTOMER SUPPORT</li>
-                                    <li> <span>9.</span> NULL</li>
-                                    <li> <span>10.</span> NULL</li>
-                                    <li> <span>11.</span> NULL</li>
+                                    <li> 7 posts per week </li>
+                                    <li>Unique content</li>
+                                    <li>Boost social engagement and
+                                    account growth</li>
+                                    <li> <span>Preview posts one week in advance</span> </li>
+                                    <li> <span>Real-time social media analytics</span> </li>
+                                    <li> SEO-optimised blog post </li>
+                                    <li> <span>Facebook Ads campaign included</span> </li>
+                                    <li> <span>Additional services are available at
+                                    checkout</span> </li>
+                                    <li> <span>Monthly rolling contract</span> </li>
+                                    <li> Priority customer support</li>
+                                    
                                 </ul>
                                 <Link href="#" className={styles.pricing_btn}>Get Started</Link>
                             </div>
@@ -274,25 +271,23 @@ function HomeContent(props) {
                                 <div className={styles.pricingHead}>
                                     <h3 className={styles.pricing_title}>Standard</h3>
                                     <p className={styles.pricing_price}>3,000 BDT</p>
-                                    <h3 className={styles.pricing_title_month}>Per Month + Vat</h3>
+                                    {/* <h3 className={styles.pricing_title_month}>Per Month + Vat</h3> */}
                                     {/* <p className={styles.pricing_price}>£<span className={styles.priceInner}>299</span></p> */}
                                 </div>
                                 <hr></hr>
                                 <ul className={styles.pricing_features}>
-                                    <li> <span>1.</span> POST PER WEEK </li>
-                                    <li> <span>2.</span> UNIQUE CONTENT </li>
-                                    <li> <span>3.</span> BOOST SOCIAL ENGAGEMENT </li>
-                                    <li> <span>4.</span> BRANDED & UNIQUE GRAPHICS </li>
-                                    <li> <span>5.</span> REAL-TIME SOCIAL MEDIA
-                                        ANALYTICS </li>
-                                    <li> <span>6.</span> ADDITIONAL SERVICES
-                                        AVAILABLE AT CHECKOUT </li>
-                                    <li> <span>7.</span> MONTHLY ROLLING CONTRACT
-                                        - CANCEL ANY TIME </li>
-                                    <li> <span>8.</span> GREAT CUSTOMER SUPPORT </li>
-                                    <li> <span>9.</span> FAST CUSTOMER SUPPORT </li>
-                                    <li> <span>10.</span> NULL </li>
-                                    <li> <span>11.</span> NULL </li>
+                                    <li> 14 posts per week </li>
+                                    <li>Unique content</li>
+                                    <li>Boost social engagement and
+                                    account growth</li>
+                                    <li> Preview posts one week in advance </li>
+                                    <li> Real-time social media analytics</li>
+                                    <li> SEO-optimised blog post </li>
+                                    <li> <span>Facebook Ads campaign included</span> </li>
+                                    <li> <span>Additional services are available at
+                                    checkout</span> </li>
+                                    <li> <span>Monthly rolling contract</span> </li>
+                                    <li> Priority customer support</li>
                                 </ul>
                                 <Link href="#" className={styles.pricing_btn}>Get Started</Link>
                             </div>
@@ -302,27 +297,23 @@ function HomeContent(props) {
                                 <div className={styles.pricingHead}>
                                     <h3 className={styles.pricing_title}>Premium</h3>
                                     <p className={styles.pricing_price}>5,000 BDT</p>
-                                    <h3 className={styles.pricing_title_month}>Per Month + Vat</h3>
+                                    {/* <h3 className={styles.pricing_title_month}>Per Month + Vat</h3> */}
                                     {/* <p className={styles.pricing_price}>£<span className={styles.priceInner}>299</span></p> */}
                                 </div>
                                 <hr></hr>
                                 <ul className={styles.pricing_features}>
-                                    <li> <span>1.</span> 5 POSTS PER WEEK </li>
-                                    <li> <span>2.</span> UNIQUE CONTENT </li>
-                                    <li> <span>3.</span> BOOST SOCIAL ENGAGEMENT
-                                        AND GROWTH </li>
-                                    <li> <span>4.</span> BRANDED & UNIQUE GRAPHICS </li>
-                                    <li> <span>5.</span> PREVIEW POSTS ONE WEEK IN
-                                        ADVANCE </li>
-                                    <li> <span>6.</span> REAL-TIME SOCIAL MEDIA
-                                        ANALYTICS </li>
-                                    <li> <span>7.</span> 1 STRATEGY CALL PER MONTH
-                                        INCLUDED </li>
-                                    <li> <span>8.</span> ADDITIONAL SERVICES ARE
-                                        AVAILABLE </li>
-                                    <li> <span>9.</span> MONTHLY ROLLING CONTRACT </li>
-                                    <li> <span>10.</span> FAST CUSTOMER SUPPORT </li>
-                                    <li> <span>11.</span> NULL </li>
+                                <li> 14 posts per week </li>
+                                    <li>Unique content</li>
+                                    <li>Boost social engagement and
+                                    account growth</li>
+                                    <li> Preview posts one week in advance </li>
+                                    <li> Real-time social media analytics</li>
+                                    <li> SEO-optimised blog post </li>
+                                    <li> Facebook Ads campaign included </li>
+                                    <li> <span>Additional services are available at
+                                    checkout</span> </li>
+                                    <li> <span>Monthly rolling contract</span> </li>
+                                    <li> Priority customer support</li>
                                 </ul>
                                 <Link href="#" className={styles.pricing_btn}>Get Started</Link>
                             </div>
@@ -332,31 +323,25 @@ function HomeContent(props) {
                                 <div className={styles.pricingHead}>
                                     <h3 className={styles.pricing_title}>PLATINUM</h3>
                                     <p className={styles.pricing_price}>7,000BDT</p>
-                                    <h3 className={styles.pricing_title_month}>Per Month + Vat</h3>
+                                    {/* <h3 className={styles.pricing_title_month}>Per Month + Vat</h3> */}
                                     {/* <p className={styles.pricing_price}>£<span className={styles.priceInner}>299</span></p> */}
                                 </div>
                                 <hr></hr>
                                 <ul className={styles.pricing_features}>
 
 
-                                    <li> <span>1.</span>  7 POSTS PER WEEK </li>
-                                    <li> <span>2.</span> UNIQUE CONTENT </li>
-                                    <li> <span>3.</span> BOOST SOCIAL ENGAGEMENT
-                                        AND GROWTH </li>
-                                    <li> <span>4.</span> PREVIEW POSTS ONE WEEK IN
-                                        ADVANCE </li>
-                                    <li> <span>5.</span>  REAL-TIME SOCIAL MEDIA
-                                        ANALYTICS </li>
-                                    <li> <span>6.</span> 1 STRATEGY CALL PER MONTH
-                                        INCLUDED </li>
-                                    <li> <span>7.</span>  1 X 500-WORD SEO-OPTIMISED
-                                        BLOG POST </li>
-                                    <li> <span>8.</span> FACEBOOK ADS CAMPAIGN
-                                        INCLUDED </li>
-                                    <li> <span>9.</span> ADDITIONAL SERVICES ARE
-                                        AVAILABLE </li>
-                                    <li> <span>10.</span> MONTHLY ROLLING CONTRACT </li>
-                                    <li> <span>11.</span> PRIORITY CUSTOMER SUPPORT </li>
+                                <li> 21 posts per week </li>
+                                    <li>Unique content</li>
+                                    <li>Boost social engagement and
+                                    account growth</li>
+                                    <li> Preview posts one week in advance </li>
+                                    <li> Real-time social media analytics</li>
+                                    <li> SEO-optimised blog post </li>
+                                    <li>Facebook Ads campaign included</li>
+                                    <li> Additional services are available at
+                                    checkout</li>
+                                    <li> Monthly rolling contract</li>
+                                    <li> Priority customer support</li>
 
                                 </ul>
                                 <Link

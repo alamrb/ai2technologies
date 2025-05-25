@@ -3717,16 +3717,17 @@ p.section_title {
 
 .pricing_features li {
   margin-bottom: 0.75rem;
-  font-size: 12px;
-  border-bottom: 1px solid #000;
+  font-size: 14px;
+  border-bottom: 1px solid red;
   padding: 10px;
   text-align: left;
+  color: red;
+  text-align: center;
 }
 
 .pricing_features li span{
-  font-size: 1rem;
-color: red;
-font-weight: 700;
+
+color:rgba(255, 0, 0, 0.3)
 }
 
 .pricing_btn {

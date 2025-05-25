@@ -1,14 +1,14 @@
 'use client'
-import styles from '../../custom.global.module.css';
-import Image from 'next/image';
-import image1 from '../../assets/images/18.webp';
-import image2 from '../../assets/images/26.webp';
-import image3 from '../../assets/images/16.webp';
-import image4 from '../../assets/images/20.webp';
-import { useRef } from 'react';
-import useWindowSize from '@/app/home/product/useWindowSize';
-import IndustryMenu from '../IndustryMenu';
 import Footer from '@/app/home/footer';
+import useWindowSize from '@/app/home/product/useWindowSize';
+import Image from 'next/image';
+import { useRef } from 'react';
+import image3 from '../../assets/images/16.webp';
+import image1 from '../../assets/images/18.webp';
+import image4 from '../../assets/images/20.webp';
+import image2 from '../../assets/images/26.webp';
+import styles from '../../custom.global.module.css';
+import IndustryMenu from '../IndustryMenu';
 
 
 export default function TechnologySoftwareDevelopment() {
@@ -28,21 +28,38 @@ export default function TechnologySoftwareDevelopment() {
                     <div className={styles.inner_technology_stack_container}>
                         <div className={styles.why_choose_us_content_section}>
                             <div className={styles.technology_stack_title_section} style={{ height: 'auto' }}>
-                                <div className={styles.technology_stack_title}> Software development in the realm of technology </div>
+                                <div className={styles.technology_stack_title}> Cutting-edge software development in the era of digital transformation </div>
                             </div>
 
                             <div div className={styles.technology_stack_item_section}>
-                                <p>Empowering stakeholders in the technology industry with state-of-the-art, next-generation software solutions.</p>
+                                <h4>Empowering the Technology Industry with Next-Generation Software Solutions</h4>
+                                <p>At the forefront of digital transformation, we specialize in delivering <b>cutting-edge, tailor-made software solutions </b>that address the complex challenges faced by organizations in the technology industry. Our innovation-centric approach is rooted in understanding each client’s unique needs and translating them into scalable, intelligent solutions.</p>
+                                <p>We’ve partnered with startups, SMEs, established businesses, and large enterprises across the globe—helping them navigate the fast-evolving tech landscape and stay ahead of the curve. Whether you're planning to launch a new software product or tackle a specific technological challenge, our custom software expertise ensures your success.</p>
+                                <p>Our experienced team of developers, engineers, and designers excels in crafting bespoke software solutions using the latest technologies and methodologies. By embracing agile development and iterative design processes, we ensure rapid prototyping, seamless adaptation to market dynamics, and continuous alignment with customer demands.</p>
+                                <p>From initial conceptualization to deployment and beyond, we work closely with our clients every step of the way. We take pride in not just meeting expectations—but exceeding them.</p>
+
+                                <h3>Proven Success in Building Advanced Tech Solutions</h3>
+                                <p>We have successfully designed, developed, and implemented mission-critical systems for numerous tech organizations, including:</p>
+                                <ul className={styles.container_ul}>
+                                    <li>Data center management tools</li>
+                                    <li>Network discovery and provisioning tools</li>
+                                    <li>Domain name management platforms based on Extensible Provisioning Protocol (EPP)</li>
+
+                                </ul>
+                                <p>Join us in shaping the future of technology—one intelligent solution at a time.</p>
+                        
+                                {/* <p>Empowering stakeholders in the technology industry with state-of-the-art, next-generation software solutions.</p>
                                 <p> Addressing challenges for organizations in the technology industry through our tailor-made software solutions epitomizes our innovation-centric approach.</p>
                                 <p>{`We've`} formed partnerships with startups, SMEs, established businesses, and large enterprises worldwide, empowering them to navigate the evolving technology landscape and deliver intelligent solutions that align with customer demands.</p>
-                                <p>Whether {`you're`} aiming to launch a new software product in the technology sector or seeking to address a specific technological challenge, our custom software expertise can ensure your success.</p>
+                                <p>Whether {`you're`} aiming to launch a new software product in the technology sector or seeking to address a specific technological challenge, our custom software expertise can ensure your success.</p> */}
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className={styles.product_container}>
+            <div>
+            {/* <div className={styles.product_container}> */}
                 <div className={styles.why_choose_us_container}>
                     <div className={styles.inner_technology_stack_container}>
                         <div className={styles.why_choose_us_content_section}>
@@ -51,7 +68,7 @@ export default function TechnologySoftwareDevelopment() {
                                 {/* <div className={styles.sub_title}>Your search & digital marketing experts</div> */}
                             </div>
 
-                            <div div className={styles.technology_stack_item_section}>
+                            {/* <div div className={styles.technology_stack_item_section}>
                                 <p>Our team of experienced developers, engineers, and designers specialize in crafting bespoke software solutions tailored to your unique needs and requirements. We pride ourselves on staying at the forefront of technological advancements, utilizing the latest tools and methodologies to deliver cutting-edge solutions that drive innovation and propel your business forward.</p>
                                 <p>From conceptualization to deployment and beyond, we work closely with our clients every step of the way, ensuring that our solutions not only meet but exceed their expectations. By harnessing the power of agile development methodologies and iterative processes, we can rapidly prototype and iterate on solutions, allowing for quick adaptation to changing market dynamics and customer needs.</p>
                                 <p>{`We've`} effectively designed, developed, and implemented the following systems for numerous tech organizations:</p>
@@ -60,7 +77,7 @@ export default function TechnologySoftwareDevelopment() {
                                     <li>Network discovery and provisioning tools</li>
                                     <li>Domain name management tools based on Extensive Provisioning Protocol (EPP)</li>
                                 </ul>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -71,7 +88,9 @@ export default function TechnologySoftwareDevelopment() {
                     <div className={styles.inner_technology_stack_container}>
                         <div className={styles.why_choose_us_content_section}>
                             <div className={styles.technology_stack_title_section} style={{ height: 'auto' }}>
-                                <div className={styles.technology_stack_title}> Why Choose Us </div>
+                                {/* <div className={styles.technology_stack_title}> Why Choose Us </div> */}
+                                <div className={styles.technology_stack_title}>  Why Clients Trust Us </div>
+                               
                                 {/* <div className={styles.sub_title}>Your search & digital marketing experts</div> */}
                             </div>
 

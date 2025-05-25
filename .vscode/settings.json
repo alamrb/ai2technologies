@@ -1,5 +1,231 @@
 {
     "cSpell.words": [
         "Fintech"
-    ]
-}
+    ],
+
+    // editor
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Fira Code, Operator Mono",
+    "editor.fontLigatures": true,
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": true,
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "scope": "comment",
+          "settings": {
+            "fontStyle": "italic"
+          }
+        }
+      ]
+    },
+    // cursor
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "expand",
+    "[javascript]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+  
+  
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.fixAll.tslint": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "eslint.alwaysShowStatus": true,
+    //terminal
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontWeight": "normal",
+    "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
+    "workbench.colorTheme": "Learn with Sumit - Peace of the eye",
+    // terminal customization
+    "workbench.colorCustomizations": {
+      "terminal.background": "#1D2021",
+      "terminal.foreground": "#A89984",
+      "terminalCursor.background": "#A89984",
+      "terminalCursor.foreground": "#A89984",
+      "terminal.ansiBlack": "#1D2021",
+      "terminal.ansiBlue": "#0D6678",
+      "terminal.ansiBrightBlack": "#665C54",
+      "terminal.ansiBrightBlue": "#0D6678",
+      "terminal.ansiBrightCyan": "#8BA59B",
+      "terminal.ansiBrightGreen": "#95C085",
+      "terminal.ansiBrightMagenta": "#8F4673",
+      "terminal.ansiBrightRed": "#FB543F",
+      "terminal.ansiBrightWhite": "#FDF4C1",
+      "terminal.ansiBrightYellow": "#FAC03B",
+      "terminal.ansiCyan": "#8BA59B",
+      "terminal.ansiGreen": "#95C085",
+      "terminal.ansiMagenta": "#8F4673",
+      "terminal.ansiRed": "#FB543F",
+      "terminal.ansiWhite": "#A89984",
+      "terminal.ansiYellow": "#FAC03B"
+    },
+  
+  
+    "highlight-matching-tag.styles": {
+      "opening": {
+        "name": {
+          "underline": "yellow",
+          "borderWidth": "0 0 3px 0"
+        }
+      }
+    },
+    "sonarlint.rules": {
+      "php:S103": {
+        "level": "off"
+      },
+      "Web:ImgWithoutAltCheck": {
+        "level": "off"
+      },
+      "javascript:S6774": {
+        "level": "off"
+      }
+    },
+    "tabnine.experimentalAutoImports": true,
+    "sonarlint.focusOnNewCode": false,
+    "sonarlint.output.showVerboseLogs": true,
+    "sonarlint.output.showAnalyzerLogs": true,
+  
+  
+    // LiveSass Setup
+  
+  
+    // "liveSassCompile.settings.formats": [
+    //   {
+    //     "format": "compressed",
+    //     "extensionName": ".css",
+    //     "savePath": null,
+    //     "savePathReplacementPairs": null
+    //   }
+    // ]
+  
+  
+    "liveSassCompile.settings.generateMap": true,
+    "editor.formatOnSave": true,
+    "auto-close-tag.activationOnLanguage": [
+      "xml",
+      "php",
+      "blade",
+      "ejs",
+      "jinja",
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact",
+      "plaintext",
+      "markdown",
+      "vue",
+      "liquid",
+      "erb",
+      "lang-cfml",
+      "cfml",
+      "HTML (EEx)",
+      "HTML (Eex)",
+      "plist"
+    ],
+    "auto-close-tag.disableOnLanguage": [],
+    // "emojisense.languages": {
+  
+  
+    //   "markdown": true,
+    //   "plaintext": {
+    //     "markupCompletionsEnabled": false,
+    //     "emojiDecoratorsEnabled": false
+    //   },
+    //   "scminput": true,
+    //   "git-commit": true
+    // },
+  
+  
+    "emojisense.languages": {
+      "plaintext": {
+        "markupCompletionsEnabled": true,
+        "emojiDecoratorsEnabled": true
+      },
+      "javascript.validate.enable": false,
+      "abap": true,
+      "bat": true,
+      "bibtex": true,
+      "clojure": true,
+      "coffeescript": true,
+      "c": true,
+      "cpp": true,
+      "csharp": true,
+      "css": true,
+      "diff": true,
+      "dockerfile": true,
+      "fsharp": true,
+      "git-commit": true,
+      "git-rebase": true,
+      "go": true,
+      "groovy": true,
+      "handlebars": true,
+      "html": true,
+      "ini": true,
+      "java": true,
+      "javascript": true,
+      "javascriptreact": true,
+      "json": true,
+      "jsonc": true,
+      "latex": true,
+      "less": true,
+      "lua": true,
+      "makefile": true,
+      "markdown": true,
+      "objective-c": true,
+      "objective-cpp": true,
+      "perl6": true,
+      "php": true,
+      "powershell": true,
+      "jade": true,
+      "python": true,
+      "r": true,
+      "razor": true,
+      "ruby": true,
+      "rust": true,
+      "scss": true,
+      "sass": true,
+      "shaderlab": true,
+      "shellscript": true,
+      "sql": true,
+      "swift": true,
+      "typescript": true,
+      "typescriptreact": true,
+      "tex": true,
+      "vb": true,
+      "xml": true,
+      "xsl": true,
+      "yaml": true
+    },
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "prettier.trailingComma": "all",
+    "github.copilot.editor.enableAutoCompletions": true,
+    "github.copilot.editor.enableCodeActions": true,
+    "github.copilot.editor.enableDiagnostics": true,
+    "github.copilot.editor.enableHovers": true,
+    "github.copilot.editor.enableSignatureHelp": true,
+    "github.copilot.editor.enableSuggestions": true,
+    "[blade]": {
+      "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.useEditorConfig": false,
+    "prettier.singleQuote": false,
+    "prettier.jsxSingleQuote": false,
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[php]": {
+      "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    }
+  }
+  
+  
+  
+  
+
+
+

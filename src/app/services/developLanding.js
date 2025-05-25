@@ -1,18 +1,14 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import React, { useRef } from 'react'
-import styles from './develop.module.css'
 import Image from 'next/image';
-import { useState, useEffect } from 'react';
-import UiImage from '../assets/7.webp'
+import { useEffect, useRef, useState } from 'react';
+import UpImage from '../assets/2.webp';
+import UiImage from '../assets/7.webp';
 import ser1 from '../assets/ser1.webp';
-import ser2 from '../assets/ser2.webp';
-import ser3 from '../assets/ser3.webp';
 import ser4 from '../assets/ser4.webp';
-import UpImage from '../assets/2.webp'
-import image5 from '../assets/images/420.webp'
-import Menu from './Menu';
-import useWindowSize from '../home/product/useWindowSize';
 import Footer from '../home/footer';
+import useWindowSize from '../home/product/useWindowSize';
+import styles from './develop.module.css';
+import Menu from './Menu';
 
 
 
@@ -75,7 +71,7 @@ export default function DevelopLanding() {
                                     Travel & Hospitality, <br />
                                     UI/UX & RPA, <br />
                                     blockchain & more.</p>
-                                <p className={styles.bodyContentP} style={{ marginBottom: '0px' }}>Embark on a transformative journey of innovation with our esteemed mobile app development team. From the conceptualization stage to deployment, we specialize in crafting bespoke applications tailored to your unique vision and business requirements. Whether it is native app development for iOS and Android, the creation of cross-platform solutions, or the meticulous design of seamless UI/UX interfaces, our dedicated team ensures a smooth, user-friendly, and ultimately enriching experience. </p>
+                                <p className={styles.bodyContentP} style={{ marginBottom: '0px' }}>Embark on a transformative journey of innovation with our ai2 technologies team. From the conceptualization stage to deployment, we specialize in crafting bespoke applications tailored to your unique vision and business requirements. Whether it is native app development for iOS and Android, the creation of cross-platform solutions, or the meticulous design of seamless UI/UX interfaces, our dedicated team ensures a smooth, user-friendly, and ultimately enriching experience. </p>
                                 <div className={styles.developButtonContainer}>
                                     <div className={styles.developButtonBottom} onClick={slide_down_1}>Learn More</div>
                                 </div>

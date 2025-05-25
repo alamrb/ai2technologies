@@ -1,6 +1,6 @@
 
 import Link from 'next/link';
-import styles from '../services/develop.module.css'
+import styles from '../services/develop.module.css';
 
 export default function CompanyMenu() {
     return (
@@ -15,10 +15,10 @@ export default function CompanyMenu() {
                     <div className={styles.mega_menu_title}>Our Process</div>
                     <div className={styles.mega_menu_content}>Embrace our proven process for crafting highly efficient and fully customized software systems.</div>
                 </Link>
-                <Link href={'/company/pricing'} className={styles.mega_menu_item_section}>
+                {/* <Link href={'/company/pricing'} className={styles.mega_menu_item_section}>
                     <div className={styles.mega_menu_title}>Pricing</div>
                     <div className={styles.mega_menu_content}>The comprehensive factors to consider when assessing development costs.</div>
-                </Link>
+                </Link> */}
                 <Link href={'/company/how-we-work'} className={styles.mega_menu_item_section}>
                     <div className={styles.mega_menu_title}>How we work</div>
                     <div className={styles.mega_menu_content}>Select the perfect engagement model tailored to your needs from our four flexible options!</div>

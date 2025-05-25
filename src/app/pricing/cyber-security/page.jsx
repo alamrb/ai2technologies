@@ -28,30 +28,22 @@ export default function Page() {
               <div className={styles.pricingHead}>
                 <h3 className={styles.pricing_title}>Basic</h3>
                 <p className={styles.pricing_price}>2,000 BDT</p>
-                <h3 className={styles.pricing_title_month}>Per Month + Vat</h3>
+                {/* <h3 className={styles.pricing_title_month}>Per Month + Vat</h3> */}
               </div>
               <hr />
               <ul className={styles.pricing_features}>
-                <li><span>1. </span>VULNERABILITY SCAN  </li>
-                <li><span>2. </span>FIREWALL SETUP & MONITORING </li>
-                <li><span>3. </span>ANTI-VIRUS & MALWARE
-                  PROTECTION </li>
-                <li><span>4. </span>DATA BACKUP CONSULTATION  </li>
-                <li><span>5. </span>EMAIL SECURITY SETUP  </li>
-                <li><span>6. </span>NULL </li>
-                <li><span>7. </span>NULL </li>
-                <li><span>8. </span>NULL </li>
-                <li><span>9. </span>NULL </li>
-                <li><span>10. </span>NULL </li>
-                <li><span>11. </span>NULL </li>
-                <li><span>12. </span>NULL </li>
-                <li><span>13. </span>NULL </li>
-                <li><span>14. </span>NULL </li>
-                <li><span>15. </span>NULL </li>
-                <li><span>16. </span>NULL </li>
-                <li><span>17. </span>NULL </li>
-                <li><span>18. </span>NULL </li>
-                <li><span>19. </span>NULL </li>
+                <li>vulnerability scan</li>
+                <li>Firewall setup & monitoring</li>
+                <li>Anti-virus & malware protection</li>
+                <li> <span>Data backup consultation</span> </li>
+                <li> <span>Email security setup</span></li>
+                <li>ndpoint protection (5–15 devices) </li>
+                <li> <span>nsure cloud configuration audit</span> </li>
+                <li> <span>Identity & Access Management (IAM)
+                  setup </span></li>
+                <li> <span>Compliance support (GDPR, ISO,
+                  HIPAA)</span> </li>
+                <li>Priority customer support </li>
               </ul>
               <Link href="#" className={styles.pricing_btn}>
                 Get Started
@@ -65,35 +57,22 @@ export default function Page() {
               <div className={styles.pricingHead}>
                 <h3 className={styles.pricing_title}>Standard</h3>
                 <p className={styles.pricing_price}>5,000 BDT</p>
-                <h3 className={styles.pricing_title_month}>Per Month + Vat</h3>
+                {/* <h3 className={styles.pricing_title_month}>Per Month + Vat</h3> */}
               </div>
               <hr />
               <ul className={styles.pricing_features}>
-                <li><span>1. </span>VULNERABILITY SCAN </li>
-                <li><span>2. </span>FIREWALL SETUP & MONITORING </li>
-                <li><span>3. </span>ANTI-VIRUS & MALWARE
-                  PROTECTION </li>
-                <li><span>4. </span>DATA BACKUP CONSULTATION </li>
-                <li><span>5. </span>EMAIL SECURITY SETUP </li>
-                <li><span>6. </span>MONTHLY SECURITY REPORT </li>
-                <li><span>7. </span>INTRUSION DETECTION SYSTEM
-                  (IDS) SETUP </li>
-                <li><span>8. </span>ENDPOINT PROTECTION (5–15
-                  DEVICES) </li>
-                <li><span>9. </span>ENSURE CLOUD
-                  CONFIGURATION AUDIT </li>
-                <li><span>10. </span>DATA LOSS PREVENTION (DLP)
-                  BASICS </li>
-                <li><span>11. </span>SECURITY AWARENESS
-                  TRAINING (QUARTERLY) </li>
-                <li><span>12. </span>GREAT CUSTOMER SUPPORT </li>
-                <li><span>13. </span>NULL </li>
-                <li><span>14. </span>NULL </li>
-                <li><span>15. </span>NULL </li>
-                <li><span>16. </span>NULL </li>
-                <li><span>17. </span>NULL </li>
-                <li><span>18. </span>NULL </li>
-                <li><span>19. </span>NULL</li>
+                <li>vulnerability scan</li>
+                <li>Firewall setup & monitoring</li>
+                <li>Anti-virus & malware protection</li>
+                <li>Data backup consultation</li>
+                <li>Email security setup</li>
+                <li>ndpoint protection (5–15 devices) </li>
+                <li> <span>nsure cloud configuration audit</span> </li>
+                <li> <span>Identity & Access Management (IAM)
+                  setup </span></li>
+                <li> <span>Compliance support (GDPR, ISO,
+                  HIPAA)</span> </li>
+                <li>Priority customer support </li>
               </ul>
               <Link href="#" className={styles.pricing_btn}>
                 Get Started
@@ -107,38 +86,22 @@ export default function Page() {
               <div className={styles.pricingHead}>
                 <h3 className={styles.pricing_title}>Premium</h3>
                 <p className={styles.pricing_price}>10,000 BDT</p>
-                <h3 className={styles.pricing_title_month}>Per Month + Vat</h3>
+                {/* <h3 className={styles.pricing_title_month}>Per Month + Vat</h3> */}
               </div>
               <hr />
               <ul className={styles.pricing_features}>
-                <li><span>1. </span>VULNERABILITY SCAN</li>
-                <li><span>2. </span>FIREWALL SETUP & MONITORING</li>
-                <li><span>3. </span>ANTI-VIRUS & MALWARE
-                  PROTECTION</li>
-                <li><span>4. </span>DATA BACKUP CONSULTATION</li>
-                <li><span>5. </span>EMAIL SECURITY SETUP</li>
-                <li><span>6. </span>MONTHLY SECURITY REPORT</li>
-                <li><span>7. </span>INTRUSION DETECTION SYSTEM
-                  (IDS) SETUP</li>
-                <li><span>8. </span>ENDPOINT PROTECTION (5–15
-                  DEVICES)</li>
-                <li><span>9. </span>ENSURE CLOUD
-                  CONFIGURATION AUDIT</li>
-                <li><span>10. </span>DATA LOSS PREVENTION (DLP)
-                  BASICS</li>
-                <li><span>11. </span>SECURITY AWARENESS
-                  TRAINING (QUARTERLY)</li>
-                <li><span>12. </span>24/7 THREAT MONITORING &
-                  INCIDENT RESPONSE</li>
-                <li><span>13. </span>A/B TESTING OF SERP TITLE &
-                  DESCRIPTION TO IMPROVE
-                  CLICKTHROUGH</li>
-                <li><span>14. </span>FAST CUSTOMER SUPPORT</li>
-                <li><span>15. </span>NULL</li>
-                <li><span>16. </span>NULL</li>
-                <li><span>17. </span>NULL</li>
-                <li><span>18. </span>NULL</li>
-                <li><span>19. </span>NULL</li>
+                <li>vulnerability scan</li>
+                <li>Firewall setup & monitoring</li>
+                <li>Anti-virus & malware protection</li>
+                <li>Data backup consultation</li>
+                <li>Email security setup</li>
+                <li>ndpoint protection (5–15 devices) </li>
+                <li>nsure cloud configuration audit </li>
+                <li> <span>Identity & Access Management (IAM)
+                  setup</span> </li>
+                <li>Compliance support (GDPR, ISO,
+                  HIPAA)</li>
+                <li>Priority customer support </li>
               </ul>
               <Link href="#" className={styles.pricing_btn}>
                 Get Started
@@ -152,43 +115,22 @@ export default function Page() {
               <div className={styles.pricingHead}>
                 <h3 className={styles.pricing_title}>PLATINUM</h3>
                 <p className={styles.pricing_price}>20,000 BDT</p>
-                <h3 className={styles.pricing_title_month}>Per Month + Vat</h3>
+                {/* <h3 className={styles.pricing_title_month}>Per Month + Vat</h3> */}
               </div>
               <hr />
               <ul className={styles.pricing_features}>
-                <li><span>1. </span>VULNERABILITY SCAN</li>
-                <li><span>2. </span>FIREWALL SETUP & MONITORING</li>
-                <li><span>3. </span>ANTI-VIRUS & MALWARE
-                  PROTECTION</li>
-                <li><span>4. </span>DATA BACKUP CONSULTATION</li>
-                <li><span>5. </span>EMAIL SECURITY SETUP</li>
-                <li><span>6. </span>MONTHLY SECURITY REPORT</li>
-                <li><span>7. </span>INTRUSION DETECTION SYSTEM
-                  (IDS) SETUP</li>
-                <li><span>8. </span>ENDPOINT PROTECTION (5–15
-                  DEVICES)</li>
-                <li><span>9. </span>ENSURE CLOUD
-                  CONFIGURATION AUDIT</li>
-                <li><span>10. </span>DATA LOSS PREVENTION (DLP)
-                  BASICS</li>
-                <li><span>11. </span>SECURITY AWARENESS
-                  TRAINING (QUARTERLY)</li>
-                <li><span>12. </span>24/7 THREAT MONITORING &
-                  INCIDENT RESPONSE</li>
-                <li><span>13. </span>A/B TESTING OF SERP TITLE &
-                  DESCRIPTION TO IMPROVE
-                  CLICKTHROUGH</li>
-                <li><span>14. </span>ADVANCED PENETRATION
-                  TESTING (BI-ANNUALLY)</li>
-                <li><span>15. </span>ZERO-TRUST ARCHITECTURE
-                  CONSULTING</li>
-                <li><span>16. </span>IDENTITY & ACCESS
-                  MANAGEMENT (IAM) SETUP</li>
-                <li><span>17. </span>COMPLIANCE SUPPORT (GDPR,
-                  ISO, HIPAA)</li>
-                <li><span>18. </span>DEDICATED SECURITY
-                  CONSULTANT</li>
-                <li><span>19. </span>PRIORITY CUSTOMER SUPPORT</li>
+                <li>vulnerability scan</li>
+                <li>Firewall setup & monitoring</li>
+                <li>Anti-virus & malware protection</li>
+                <li>Data backup consultation</li>
+                <li>Email security setup</li>
+                <li>ndpoint protection (5–15 devices) </li>
+                <li>nsure cloud configuration audit </li>
+                <li>Identity & Access Management (IAM)
+                  setup </li>
+                <li>Compliance support (GDPR, ISO,
+                  HIPAA)</li>
+                <li>Priority customer support </li>
               </ul>
               <Link href="#" className={styles.pricing_btn}>
                 Get Started
